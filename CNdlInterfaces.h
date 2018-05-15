@@ -34,7 +34,7 @@ public:
   static double readVersionFromStream(istream& in) throw(ndlexceptions::StreamVersionError&)
   {
     double ver = readDoubleFromStream(in, "version");
-    if(ver<getMinCompatVersion())
+    if(ver<=getMinCompatVersion())
       throw ndlexceptions::StreamVersionError();
     return ver;
 

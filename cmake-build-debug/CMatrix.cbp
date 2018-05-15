@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CMatrix"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testGP">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testGP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testGP"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testGP/fast">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testGP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testGP/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gp">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/gp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 gp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gp/fast">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/gp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 gp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmatrix">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/libcmatrix.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 cmatrix"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmatrix/fast">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/libcmatrix.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 cmatrix/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testKern">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testKern" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testKern"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testKern/fast">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testKern" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testKern/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testDist">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testDist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testDist"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testDist/fast">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testDist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testDist/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testCode">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testCode"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testCode/fast">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testCode/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testMatrix">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testMatrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testMatrix"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testMatrix/fast">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testMatrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testMatrix/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testNoise">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testNoise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testNoise"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testNoise/fast">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testNoise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testNoise/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testGPML">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testGPML" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testGPML"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testGPML/fast">
+				<Option output="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/testGPML" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FORTRAN_MAIN_FIX"/>
+					<Add option="-D_NDLMATLAB"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/."/>
+					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 testGPML/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CClctrl.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CClctrl.h">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CDist.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CDist.h">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CGp.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CGp.h">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CKern.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CKern.h">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CMatrix.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CMatrix.h">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CNoise.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CNoise.h">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/COptimisable.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/COptimisable.h">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CRbfKern.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CRbfKern.hpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CRbfardKern.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CRbfardKern.hpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CTransform.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CTransform.h">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/lib/ndlfortran.o">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/ndlassert.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/ndlassert.h">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/ndlstrutil.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/ndlstrutil.h">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/ndlutil.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/ndlutil.h">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/gp.cpp">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/gp.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/test/testCode.cpp">
+			<Option target="testCode"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/test/testDist.cpp">
+			<Option target="testDist"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/test/testGPML.cpp">
+			<Option target="testGPML"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/test/testGp.cpp">
+			<Option target="testGP"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/test/testKern.cpp">
+			<Option target="testKern"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/test/testMatrix.cpp">
+			<Option target="testMatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/test/testNoise.cpp">
+			<Option target="testNoise"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

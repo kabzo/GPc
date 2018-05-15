@@ -48,7 +48,7 @@ testDist: testDist.o CMatrix.o ndlfortran.o CTransform.o COptimisable.o CDist.o 
 testDist.o: testDist.cpp CDist.h CTransform.h CMatrix.h CClctrl.h
 	$(CC) -c testDist.cpp -o testDist.o $(CCFLAGS)
 
-testGp: testGp.o CGp.o CMatrix.o ndlfortran.o CNoise.o ndlutil.o ndlstrutil.o CTransform.o COptimisable.o CKern.o CDist.o CClctrl.o CMltools.o
+testGp: testGp.o CGp.o ndlassert.o CMatrix.o ndlfortran.o CNoise.o ndlutil.o ndlstrutil.o CTransform.o COptimisable.o CKern.o CDist.o CClctrl.o CMltools.o
 	$(LD) ${XLINKERFLAGS} -o testGp  testGp.o CGp.o CMatrix.o ndlfortran.o CNoise.o ndlutil.o ndlstrutil.o CTransform.o COptimisable.o CKern.o CDist.o CClctrl.o CMltools.o $(LDFLAGS)
 
 testGp.o: testGp.cpp CGp.h CKern.h CMatrix.h CClctrl.h

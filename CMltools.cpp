@@ -295,7 +295,7 @@ CMlpMapping::CMlpMapping(CMatrix* inData,
 }
 mxArray* CMlpMapping::toMxArray() const
 {
-  int dims[1];
+    mwSize dims[1];
   dims[0]=1;
   mxArray* matlabArray;
   const char* fieldNames[]={"type", "nin", "nhidden", "nout", "nwts", "outfn", "w1", "b1", "w2", "b2", "numParams", "hiddenDim", "inputDim", "outputDim", "optimiser"};
@@ -701,7 +701,7 @@ CLinearMapping::CLinearMapping(CMatrix* inData,
 }
 mxArray* CLinearMapping::toMxArray() const
 {
-  int dims[1];
+    mwSize dims[1];
   dims[0]=1;
   mxArray* matlabArray;
   const char* fieldNames[]={"type", "W", "b", "numParams", "inputDim", "outputDim", "optimiser", "beta"};

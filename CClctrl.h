@@ -8,6 +8,8 @@ File Notes
 
 #ifndef CCLCTRL_H
 #define CCLCTRL_H
+using namespace std;
+
 #include <iostream>
 #include <ctime>
 #include <cstring>

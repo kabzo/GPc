@@ -663,6 +663,7 @@ class CNcnmNoise : public CNoise {
   double sigma2;
   CMatrix bias;
 };
+
 class COrderedNoise : public CNoise {
  public:  
   // constructors
