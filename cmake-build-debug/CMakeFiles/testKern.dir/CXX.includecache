@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-.././CDataModel.h
+../include/GPc/CDataModel.h
 iostream
 -
 string
@@ -22,29 +22,29 @@ vector
 algorithm
 -
 ndlexceptions.h
-.././ndlexceptions.h
+../include/GPc/ndlexceptions.h
 ndlstrutil.h
-.././ndlstrutil.h
+../include/GPc/ndlstrutil.h
 CNdlInterfaces.h
-.././CNdlInterfaces.h
+../include/GPc/CNdlInterfaces.h
 CMatrix.h
-.././CMatrix.h
+../include/GPc/CMatrix.h
 
-.././CDist.h
+../include/GPc/CDist.h
 cmath
 -
 vector
 -
 CMatrix.h
-.././CMatrix.h
+../include/GPc/CMatrix.h
 CNdlInterfaces.h
-.././CNdlInterfaces.h
+../include/GPc/CNdlInterfaces.h
 CTransform.h
-.././CTransform.h
+../include/GPc/CTransform.h
 ndlutil.h
-.././ndlutil.h
+../include/GPc/ndlutil.h
 
-.././CKern.h
+../include/GPc/CKern.h
 cmath
 -
 iostream
@@ -56,21 +56,21 @@ vector
 algorithm
 -
 ndlassert.h
-.././ndlassert.h
+../include/GPc/ndlassert.h
 CTransform.h
-.././CTransform.h
+../include/GPc/CTransform.h
 CDataModel.h
-.././CDataModel.h
+../include/GPc/CDataModel.h
 CMatrix.h
-.././CMatrix.h
+../include/GPc/CMatrix.h
 CDist.h
-.././CDist.h
+../include/GPc/CDist.h
 ndlstrutil.h
-.././ndlstrutil.h
+../include/GPc/ndlstrutil.h
 ndlutil.h
-.././ndlutil.h
+../include/GPc/ndlutil.h
 
-.././CMatrix.h
+../include/GPc/CMatrix.h
 iostream
 -
 iomanip
@@ -82,21 +82,21 @@ cmath
 vector
 -
 ndlassert.h
-.././ndlassert.h
+../include/GPc/ndlassert.h
 CNdlInterfaces.h
-.././CNdlInterfaces.h
+../include/GPc/CNdlInterfaces.h
 ndlexceptions.h
-.././ndlexceptions.h
+../include/GPc/ndlexceptions.h
 ndlutil.h
-.././ndlutil.h
+../include/GPc/ndlutil.h
 ndlstrutil.h
-.././ndlstrutil.h
+../include/GPc/ndlstrutil.h
 lapack.h
-.././lapack.h
+../include/GPc/lapack.h
 hdf5/hdf5_io.hpp
 -
 
-.././CNdlInterfaces.h
+../include/GPc/CNdlInterfaces.h
 string
 -
 iostream
@@ -104,41 +104,41 @@ iostream
 sstream
 -
 ndlexceptions.h
-.././ndlexceptions.h
+../include/GPc/ndlexceptions.h
 ndlstrutil.h
-.././ndlstrutil.h
+../include/GPc/ndlstrutil.h
 mex.h
-.././mex.h
+../include/GPc/mex.h
 mat.h
-.././mat.h
+../include/GPc/mat.h
 
-.././CRbfKern.hpp
+../include/GPc/CRbfKern.hpp
 CKern.h
-.././CKern.h
+../include/GPc/CKern.h
 
-.././CRbfardKern.hpp
+../include/GPc/CRbfardKern.hpp
 CKern.h
-.././CKern.h
+../include/GPc/CKern.h
 
-.././CTransform.h
+../include/GPc/CTransform.h
 cmath
 -
 CMatrix.h
-.././CMatrix.h
+../include/GPc/CMatrix.h
 ndlutil.h
-.././ndlutil.h
+../include/GPc/ndlutil.h
 
-.././lapack.h
+../include/GPc/lapack.h
 blaswrap.h
-.././blaswrap.h
+../include/GPc/blaswrap.h
 
-.././ndlassert.h
+../include/GPc/ndlassert.h
 cassert
 -
 ndlexceptions.h
-.././ndlexceptions.h
+../include/GPc/ndlexceptions.h
 
-.././ndlexceptions.h
+../include/GPc/ndlexceptions.h
 vector
 -
 string
@@ -148,9 +148,9 @@ iostream
 stdexcept
 -
 
-.././ndlfortran.h
+../include/GPc/ndlfortran.h
 
-.././ndlstrutil.h
+../include/GPc/ndlstrutil.h
 limits
 -
 algorithm
@@ -162,9 +162,9 @@ string
 iostream
 -
 ndlexceptions.h
-.././ndlexceptions.h
+../include/GPc/ndlexceptions.h
 
-.././ndlutil.h
+../include/GPc/ndlutil.h
 cmath
 -
 climits
@@ -172,11 +172,11 @@ climits
 cfloat
 -
 ndlassert.h
-.././ndlassert.h
+../include/GPc/ndlassert.h
 ndlfortran.h
-.././ndlfortran.h
+../include/GPc/ndlfortran.h
 ndlexceptions.h
-.././ndlexceptions.h
+../include/GPc/ndlexceptions.h
 
 /home/juraj/git/master_thesis/gp/GPc/test/testKern.cpp
 CKern.h

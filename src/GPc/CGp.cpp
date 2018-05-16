@@ -48,6 +48,7 @@ CGp::CGp(unsigned int q, unsigned int d,
             throw ndlexceptions::Error("Unrecognised sparse approximation type.");
     }
 }
+
 CGp::CGp(CKern *pkernel, CNoise *pnois,
          CMatrix *pXin, int approxType,
          unsigned int actSetSize, int verbos)
@@ -89,7 +90,7 @@ CGp::CGp(CKern *pkernel, CNoise *pnois,
 
 CGp::CGp(CKern *pkernel, CNoise *pnois,
          CMatrix *pXin, CMatrix *pPostAlpha,
-         CMatrix *pL, CMatrix *W,
+         CMatrix *pL, CMatrix *pW,
          int approxType,
          unsigned int actSetSize,
          int verbos)
@@ -128,8 +129,10 @@ CGp::CGp(CKern *pkernel, CNoise *pnois,
             throw ndlexceptions::Error("Unrecognised sparse approximation type.");
     }
 
-    Alpha = *pPostAlpha;
+    setAlpha(pPostAlpha);
     LcholK = *pL;
+    sW = *pW;
+    use_W_covariance_weight = true;
 }
 
 void CGp::_init() {
@@ -168,6 +171,7 @@ void CGp::initOptimiseXStoreage() {
         }
     }
 }
+
 void CGp::initSparseStoreage() {
     if (isSparseApproximation()) {
         X_u.resize(numActive, getInputDim());
@@ -202,6 +206,7 @@ void CGp::initSparseStoreage() {
         Alpha.resize(getNumData(), getOutputDim());
     }
 }
+
 void CGp::initStoreage() {
     //py->resize(getNumData(), getOutputDim());
     m.resize(getNumData(), getOutputDim());
@@ -302,6 +307,7 @@ void CGp::initVals() {
 void CGp::updateX() {
     setKupToDate(false);
 }
+
 string CGp::getNoiseType() const {
     return pnoise->getType();
 }
@@ -424,18 +430,28 @@ void CGp::out(CMatrix &yPred, const CMatrix &Xin) const {
     pnoise->out(yPred, muTest, varSigmaTest);
 }
 
-void CGp::out(CMatrix &yPred, CMatrix &probPred, const CMatrix &Xin) const {
+void CGp::out(CMatrix &yPred, CMatrix &probPred, const CMatrix &Xin, const bool variance) const {
     CMatrix muTest(yPred.getRows(), yPred.getCols());
     CMatrix varSigmaTest(yPred.getRows(), yPred.getCols());
     posteriorMeanVar(muTest, varSigmaTest, Xin);
-    pnoise->out(yPred, probPred, muTest, varSigmaTest);
+    pnoise->out(yPred, probPred, muTest, varSigmaTest, variance);
 }
+
 double CGp::outGradParams(CMatrix &g, const CMatrix &Xin, unsigned int pointNo, unsigned int outputNo) const {
     throw ndlexceptions::NotImplementedError("outGradParams not yet implemented for CGp.");
 }
+
 double CGp::outGradX(CMatrix &g, const CMatrix &Xin, unsigned int pointNo, unsigned int outputNo) const {
     throw ndlexceptions::NotImplementedError("outGradX not yet implemented for CGp.");
 }
+
+void CGp::setAlpha(const CMatrix* Alpha_precomputed){
+    Alpha = *Alpha_precomputed;
+    setMupToDate(true);
+    setKupToDate(true);
+    setAlphaUpToDate(true);
+}
+
 void CGp::updateAlpha() const {
     if (!isAlphaUpToDate()) {
         updateM();
@@ -487,6 +503,7 @@ void CGp::updateAlpha() const {
         setAlphaUpToDate(true);
     }
 }
+
 void CGp::_testComputeKx(CMatrix &kX, const CMatrix &Xin) const {
     if (isSparseApproximation()) {
         DIMENSIONMATCH(kX.getRows() == X_u.getRows() && kX.getCols() == Xin.getRows());
@@ -496,6 +513,7 @@ void CGp::_testComputeKx(CMatrix &kX, const CMatrix &Xin) const {
         pkern->compute(kX, *pX, Xin);
     }
 }
+
 void CGp::_posteriorMean(CMatrix &mu, const CMatrix &kX) const {
     updateAlpha();
     DIMENSIONMATCH(mu.getRows() == kX.getCols());
@@ -505,6 +523,7 @@ void CGp::_posteriorMean(CMatrix &mu, const CMatrix &kX) const {
             mu.setVal(Alpha.dotColCol(j, kX, i), i, j);
         }
     }
+
     // apply output scale and bias.
     for (unsigned int j = 0; j < getOutputDim(); j++) {
         double scaleVal = scale.getVal(j);
@@ -517,6 +536,7 @@ void CGp::_posteriorMean(CMatrix &mu, const CMatrix &kX) const {
         }
     }
 }
+
 void CGp::_posteriorVar(CMatrix &varSigma, CMatrix &kX, const CMatrix &Xin) const {
     updateK();
     updateAD();
@@ -539,7 +559,11 @@ void CGp::_posteriorVar(CMatrix &varSigma, CMatrix &kX, const CMatrix &Xin) cons
         }
     } else {
         // solve LcholK * tmp = kX,  kX := tmp
-        kX.trsm( , 1.0, "L", "L", "N", "N"); // now it is LcholKinv*K
+        if(use_W_covariance_weight)
+            kX.multiply(sW);
+
+        kX.trsm(LcholK, 1.0, "L", "L", "N", "N"); // now it is LcholKinv*K
+
         for (unsigned int i = 0; i < kX.getCols(); i++) {
             double vsVal = pkern->diagComputeElement(Xin, i) - kX.norm2Col(i);
             CHECKZEROORPOSITIVE(vsVal >= 0);
@@ -558,35 +582,26 @@ void CGp::_posteriorVar(CMatrix &varSigma, CMatrix &kX, const CMatrix &Xin) cons
         }
     }
 }
+
 void CGp::posteriorMean(CMatrix &mu, const CMatrix &Xin) const {
     updateAlpha();
-    int alRows = 0;
-    if (isSparseApproximation()) {
-        alRows = numActive;
-    } else {
-        alRows = getNumData();
-    }
+    const int alRows = isSparseApproximation() ? numActive: getNumData();
     CMatrix kX(alRows, Xin.getRows());
     _testComputeKx(kX, Xin);
     _posteriorMean(mu, kX);
 }
+
 void CGp::posteriorMeanVar(CMatrix &mu, CMatrix &varSigma, const CMatrix &Xin) const {
     DIMENSIONMATCH(mu.getCols() == getOutputDim());
     DIMENSIONMATCH(varSigma.getCols() == getOutputDim());
     DIMENSIONMATCH(mu.getRows() == Xin.getRows());
     DIMENSIONMATCH(varSigma.getRows() == Xin.getRows());
 
-    int alRows = 0;
-    if (isSparseApproximation()) {
-        alRows = numActive;
-    } else {
-        alRows = getNumData();
-    }
+    const int alRows = isSparseApproximation() ? numActive: getNumData();
     CMatrix kX(alRows, Xin.getRows());
     _testComputeKx(kX, Xin);
     _posteriorMean(mu, kX);
     _posteriorVar(varSigma, kX, Xin); // destroys kX through in place operations.
-
 }
 
 // Gradient routines
@@ -903,6 +918,7 @@ double CGp::logLikelihood() const {
     L -= (double) getOutputDim() * (double) getNumData() * ndlutil::HALFLOGTWOPI;
     return L;
 }
+
 // compute the gradients wrt parameters and latent variables.
 double CGp::logLikelihoodGradient(CMatrix &g) const {
     updateG();
@@ -952,6 +968,7 @@ double CGp::logLikelihoodGradient(CMatrix &g) const {
     return logLikelihood();
 
 }
+
 void CGp::updateG() const {
     if (!isMupToDate()) {
         throw ndlexceptions::Error("updateG() called when M is not updated.");
@@ -1242,9 +1259,11 @@ void CGp::gpCovGrads() const {
     }
 
 }
+
 void CGp::pointLogLikelihood(const CMatrix &y, const CMatrix &X) const {
 
 }
+
 #ifdef _NDLMATLAB
 CGp::CGp(CMatrix *pinData,
          CMatrix *ptargetData,
@@ -1357,6 +1376,7 @@ void CGp::fromMxArray(const mxArray *matlabArray) {
 }
 #else /* not _NDLMATLAB */
 #endif
+
 // Optimise the GP with respect to latent positions and kernel parameters.
 void CGp::optimise(unsigned int iters) {
     if (getVerbosity() > 2) {
@@ -1437,6 +1457,9 @@ void CGp::display(ostream &os) const {
     if (py && pX) {
         cout << "Log likelihood: " << logLikelihood() << endl;
     }
+    cout << "LcholK: " <<  LcholK << endl;
+    cout << "sW: " <<  sW << endl;
+    cout << "Alpha: " <<  Alpha << endl;
 }
 
 void CGp::readParamsFromStream(istream &in) {

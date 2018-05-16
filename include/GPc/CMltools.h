@@ -16,7 +16,7 @@
 #include "CNdlInterfaces.h"
 #include "CMatrix.h"
 #include "CKern.h"
-#include "CNoise.h"
+#include "noise/CNoiseTypes.h"
 #include "CTransform.h"
 #include "CMatrix.h"
 #include "CDist.h"

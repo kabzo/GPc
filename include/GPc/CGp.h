@@ -22,6 +22,7 @@ class CGp : public CMapModel, public CProbabilisticOptimisable, public CStreamIn
     //  CGp(CKern& kernel, CScaleNoise& nois, CMatrix& Xin, int verbos=2);
     // Constructor given a kernel and sparse approximation
     CGp(CKern *kernel, CNoise *nois, CMatrix *Xin, int approxType = FTC, unsigned int actSetSize = 0, int verbos = 2);
+
     CGp(CKern *kernel,
         CNoise *nois,
         CMatrix *Xin,
@@ -66,11 +67,12 @@ class CGp : public CMapModel, public CProbabilisticOptimisable, public CStreamIn
 
     // For MapModel interface.
     void out(CMatrix &yPred, const CMatrix &inData) const;
-    void out(CMatrix &yPred, CMatrix &probPred, const CMatrix &inData) const;
+    void out(CMatrix &yPred, CMatrix &probPred, const CMatrix &inData, const bool variance = false) const;
     double outGradParams(CMatrix &g, const CMatrix &Xin, unsigned int pointNo, unsigned int outputNo) const;
     double outGradX(CMatrix &g, const CMatrix &Xin, unsigned int pointNo, unsigned int outputNo) const;
 
     // update alpha representation.
+    void setAlpha(const CMatrix* Alpha_precomputed);
     void updateAlpha() const;
     void posteriorMeanVar(CMatrix &mu, CMatrix &varSigma, const CMatrix &X) const;
     void posteriorMean(CMatrix &mu, const CMatrix &X) const;
@@ -412,6 +414,8 @@ class CGp : public CMapModel, public CProbabilisticOptimisable, public CStreamIn
     mutable CMatrix invK;
     mutable CMatrix diagK;
     mutable CMatrix LcholK;
+    mutable CMatrix sW;
+    bool use_W_covariance_weight;
     mutable double  logDetK;
 
     mutable CMatrix covGrad;

@@ -40,6 +40,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -71,6 +72,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -102,6 +104,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -133,6 +136,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -164,6 +168,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -195,6 +200,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -226,6 +232,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -257,6 +264,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -288,6 +296,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -319,6 +328,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -350,6 +360,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -381,6 +392,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -412,6 +424,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -443,6 +456,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -474,6 +488,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -505,6 +520,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -546,6 +562,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -577,6 +594,7 @@
 					<Add directory="/home/juraj/git/master_thesis/gp/ndlutil/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/matrix/src"/>
 					<Add directory="/home/juraj/git/master_thesis/gp/branches/helper/src"/>
+					<Add directory="/home/juraj/git/master_thesis/gp/GPc/include/GPc"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/eigen3"/>
 					<Add directory="/opt/MATLAB/R2018a/extern/include"/>
@@ -596,85 +614,52 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CClctrl.cpp">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CClctrl.h">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CDist.cpp">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CDist.h">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CGp.cpp">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CGp.h">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CKern.cpp">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CKern.h">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CMatrix.cpp">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CMatrix.h">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CNoise.cpp">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CNoise.h">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/COptimisable.cpp">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/COptimisable.h">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CRbfKern.cpp">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CRbfKern.hpp">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CRbfardKern.cpp">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CRbfardKern.hpp">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CTransform.cpp">
-			<Option target="cmatrix"/>
-		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/CTransform.h">
-			<Option target="cmatrix"/>
-		</Unit>
 		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/lib/ndlfortran.o">
 			<Option target="cmatrix"/>
 		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/ndlassert.cpp">
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/CClctrl.cpp">
 			<Option target="cmatrix"/>
 		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/ndlassert.h">
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/CDist.cpp">
 			<Option target="cmatrix"/>
 		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/ndlstrutil.cpp">
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/CGp.cpp">
 			<Option target="cmatrix"/>
 		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/ndlstrutil.h">
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/CKern.cpp">
 			<Option target="cmatrix"/>
 		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/ndlutil.cpp">
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/CMatrix.cpp">
 			<Option target="cmatrix"/>
 		</Unit>
-		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/ndlutil.h">
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/COptimisable.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/CRbfKern.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/CRbfardKern.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/CTransform.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlassert.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlstrutil.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlutil.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CGaussianMultiDimNoise.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CGaussianNoise.cpp">
+			<Option target="cmatrix"/>
+		</Unit>
+		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CNoise.cpp">
 			<Option target="cmatrix"/>
 		</Unit>
 		<Unit filename="/home/juraj/git/master_thesis/gp/GPc/src/gp.cpp">

@@ -57,355 +57,407 @@ include CMakeFiles/cmatrix.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cmatrix.dir/flags.make
 
-CMakeFiles/cmatrix.dir/CClctrl.cpp.o: CMakeFiles/cmatrix.dir/flags.make
-CMakeFiles/cmatrix.dir/CClctrl.cpp.o: ../CClctrl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmatrix.dir/CClctrl.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/CClctrl.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/CClctrl.cpp
+CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o: ../src/GPc/CClctrl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/CClctrl.cpp
 
-CMakeFiles/cmatrix.dir/CClctrl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/CClctrl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/CClctrl.cpp > CMakeFiles/cmatrix.dir/CClctrl.cpp.i
+CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/CClctrl.cpp > CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.i
 
-CMakeFiles/cmatrix.dir/CClctrl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/CClctrl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/CClctrl.cpp -o CMakeFiles/cmatrix.dir/CClctrl.cpp.s
+CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/CClctrl.cpp -o CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.s
 
-CMakeFiles/cmatrix.dir/CClctrl.cpp.o.requires:
+CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o.requires:
 
-.PHONY : CMakeFiles/cmatrix.dir/CClctrl.cpp.o.requires
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o.requires
 
-CMakeFiles/cmatrix.dir/CClctrl.cpp.o.provides: CMakeFiles/cmatrix.dir/CClctrl.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/CClctrl.cpp.o.provides.build
-.PHONY : CMakeFiles/cmatrix.dir/CClctrl.cpp.o.provides
+CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o.provides
 
-CMakeFiles/cmatrix.dir/CClctrl.cpp.o.provides.build: CMakeFiles/cmatrix.dir/CClctrl.cpp.o
+CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o
 
 
-CMakeFiles/cmatrix.dir/CGp.cpp.o: CMakeFiles/cmatrix.dir/flags.make
-CMakeFiles/cmatrix.dir/CGp.cpp.o: ../CGp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cmatrix.dir/CGp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/CGp.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/CGp.cpp
+CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o: ../src/GPc/CGp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/CGp.cpp
 
-CMakeFiles/cmatrix.dir/CGp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/CGp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/CGp.cpp > CMakeFiles/cmatrix.dir/CGp.cpp.i
+CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/CGp.cpp > CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.i
 
-CMakeFiles/cmatrix.dir/CGp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/CGp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/CGp.cpp -o CMakeFiles/cmatrix.dir/CGp.cpp.s
+CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/CGp.cpp -o CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.s
 
-CMakeFiles/cmatrix.dir/CGp.cpp.o.requires:
+CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o.requires:
 
-.PHONY : CMakeFiles/cmatrix.dir/CGp.cpp.o.requires
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o.requires
 
-CMakeFiles/cmatrix.dir/CGp.cpp.o.provides: CMakeFiles/cmatrix.dir/CGp.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/CGp.cpp.o.provides.build
-.PHONY : CMakeFiles/cmatrix.dir/CGp.cpp.o.provides
+CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o.provides
 
-CMakeFiles/cmatrix.dir/CGp.cpp.o.provides.build: CMakeFiles/cmatrix.dir/CGp.cpp.o
+CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o
 
 
-CMakeFiles/cmatrix.dir/CMatrix.cpp.o: CMakeFiles/cmatrix.dir/flags.make
-CMakeFiles/cmatrix.dir/CMatrix.cpp.o: ../CMatrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cmatrix.dir/CMatrix.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/CMatrix.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/CMatrix.cpp
+CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o: ../src/GPc/CMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/CMatrix.cpp
 
-CMakeFiles/cmatrix.dir/CMatrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/CMatrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/CMatrix.cpp > CMakeFiles/cmatrix.dir/CMatrix.cpp.i
+CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/CMatrix.cpp > CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.i
 
-CMakeFiles/cmatrix.dir/CMatrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/CMatrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/CMatrix.cpp -o CMakeFiles/cmatrix.dir/CMatrix.cpp.s
+CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/CMatrix.cpp -o CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.s
 
-CMakeFiles/cmatrix.dir/CMatrix.cpp.o.requires:
+CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o.requires:
 
-.PHONY : CMakeFiles/cmatrix.dir/CMatrix.cpp.o.requires
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o.requires
 
-CMakeFiles/cmatrix.dir/CMatrix.cpp.o.provides: CMakeFiles/cmatrix.dir/CMatrix.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/CMatrix.cpp.o.provides.build
-.PHONY : CMakeFiles/cmatrix.dir/CMatrix.cpp.o.provides
+CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o.provides
 
-CMakeFiles/cmatrix.dir/CMatrix.cpp.o.provides.build: CMakeFiles/cmatrix.dir/CMatrix.cpp.o
+CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o
 
 
-CMakeFiles/cmatrix.dir/CNoise.cpp.o: CMakeFiles/cmatrix.dir/flags.make
-CMakeFiles/cmatrix.dir/CNoise.cpp.o: ../CNoise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cmatrix.dir/CNoise.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/CNoise.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/CNoise.cpp
+CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o: ../src/GPc/noise/CNoise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CNoise.cpp
 
-CMakeFiles/cmatrix.dir/CNoise.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/CNoise.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/CNoise.cpp > CMakeFiles/cmatrix.dir/CNoise.cpp.i
+CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CNoise.cpp > CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.i
 
-CMakeFiles/cmatrix.dir/CNoise.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/CNoise.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/CNoise.cpp -o CMakeFiles/cmatrix.dir/CNoise.cpp.s
+CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CNoise.cpp -o CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.s
 
-CMakeFiles/cmatrix.dir/CNoise.cpp.o.requires:
+CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o.requires:
 
-.PHONY : CMakeFiles/cmatrix.dir/CNoise.cpp.o.requires
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o.requires
 
-CMakeFiles/cmatrix.dir/CNoise.cpp.o.provides: CMakeFiles/cmatrix.dir/CNoise.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/CNoise.cpp.o.provides.build
-.PHONY : CMakeFiles/cmatrix.dir/CNoise.cpp.o.provides
+CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o.provides
 
-CMakeFiles/cmatrix.dir/CNoise.cpp.o.provides.build: CMakeFiles/cmatrix.dir/CNoise.cpp.o
+CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o
 
 
-CMakeFiles/cmatrix.dir/ndlutil.cpp.o: CMakeFiles/cmatrix.dir/flags.make
-CMakeFiles/cmatrix.dir/ndlutil.cpp.o: ../ndlutil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cmatrix.dir/ndlutil.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/ndlutil.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/ndlutil.cpp
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o: ../src/GPc/noise/CGaussianNoise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CGaussianNoise.cpp
 
-CMakeFiles/cmatrix.dir/ndlutil.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/ndlutil.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/ndlutil.cpp > CMakeFiles/cmatrix.dir/ndlutil.cpp.i
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CGaussianNoise.cpp > CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.i
 
-CMakeFiles/cmatrix.dir/ndlutil.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/ndlutil.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/ndlutil.cpp -o CMakeFiles/cmatrix.dir/ndlutil.cpp.s
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CGaussianNoise.cpp -o CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.s
 
-CMakeFiles/cmatrix.dir/ndlutil.cpp.o.requires:
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o.requires:
 
-.PHONY : CMakeFiles/cmatrix.dir/ndlutil.cpp.o.requires
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o.requires
 
-CMakeFiles/cmatrix.dir/ndlutil.cpp.o.provides: CMakeFiles/cmatrix.dir/ndlutil.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/ndlutil.cpp.o.provides.build
-.PHONY : CMakeFiles/cmatrix.dir/ndlutil.cpp.o.provides
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o.provides
 
-CMakeFiles/cmatrix.dir/ndlutil.cpp.o.provides.build: CMakeFiles/cmatrix.dir/ndlutil.cpp.o
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o
 
 
-CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o: CMakeFiles/cmatrix.dir/flags.make
-CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o: ../ndlstrutil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/ndlstrutil.cpp
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o: ../src/GPc/noise/CGaussianMultiDimNoise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CGaussianMultiDimNoise.cpp
 
-CMakeFiles/cmatrix.dir/ndlstrutil.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/ndlstrutil.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/ndlstrutil.cpp > CMakeFiles/cmatrix.dir/ndlstrutil.cpp.i
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CGaussianMultiDimNoise.cpp > CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.i
 
-CMakeFiles/cmatrix.dir/ndlstrutil.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/ndlstrutil.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/ndlstrutil.cpp -o CMakeFiles/cmatrix.dir/ndlstrutil.cpp.s
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CGaussianMultiDimNoise.cpp -o CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.s
 
-CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o.requires:
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o.requires:
 
-.PHONY : CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o.requires
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o.requires
 
-CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o.provides: CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o.provides.build
-.PHONY : CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o.provides
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o.provides
 
-CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o.provides.build: CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o
+CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o
 
 
-CMakeFiles/cmatrix.dir/CTransform.cpp.o: CMakeFiles/cmatrix.dir/flags.make
-CMakeFiles/cmatrix.dir/CTransform.cpp.o: ../CTransform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cmatrix.dir/CTransform.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/CTransform.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/CTransform.cpp
+CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o: ../src/GPc/ndlutil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlutil.cpp
 
-CMakeFiles/cmatrix.dir/CTransform.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/CTransform.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/CTransform.cpp > CMakeFiles/cmatrix.dir/CTransform.cpp.i
+CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlutil.cpp > CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.i
 
-CMakeFiles/cmatrix.dir/CTransform.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/CTransform.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/CTransform.cpp -o CMakeFiles/cmatrix.dir/CTransform.cpp.s
+CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlutil.cpp -o CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.s
 
-CMakeFiles/cmatrix.dir/CTransform.cpp.o.requires:
+CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o.requires:
 
-.PHONY : CMakeFiles/cmatrix.dir/CTransform.cpp.o.requires
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o.requires
 
-CMakeFiles/cmatrix.dir/CTransform.cpp.o.provides: CMakeFiles/cmatrix.dir/CTransform.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/CTransform.cpp.o.provides.build
-.PHONY : CMakeFiles/cmatrix.dir/CTransform.cpp.o.provides
+CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o.provides
 
-CMakeFiles/cmatrix.dir/CTransform.cpp.o.provides.build: CMakeFiles/cmatrix.dir/CTransform.cpp.o
+CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o
 
 
-CMakeFiles/cmatrix.dir/COptimisable.cpp.o: CMakeFiles/cmatrix.dir/flags.make
-CMakeFiles/cmatrix.dir/COptimisable.cpp.o: ../COptimisable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cmatrix.dir/COptimisable.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/COptimisable.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/COptimisable.cpp
+CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o: ../src/GPc/ndlstrutil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlstrutil.cpp
 
-CMakeFiles/cmatrix.dir/COptimisable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/COptimisable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/COptimisable.cpp > CMakeFiles/cmatrix.dir/COptimisable.cpp.i
+CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlstrutil.cpp > CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.i
 
-CMakeFiles/cmatrix.dir/COptimisable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/COptimisable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/COptimisable.cpp -o CMakeFiles/cmatrix.dir/COptimisable.cpp.s
+CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlstrutil.cpp -o CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.s
 
-CMakeFiles/cmatrix.dir/COptimisable.cpp.o.requires:
+CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o.requires:
 
-.PHONY : CMakeFiles/cmatrix.dir/COptimisable.cpp.o.requires
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o.requires
 
-CMakeFiles/cmatrix.dir/COptimisable.cpp.o.provides: CMakeFiles/cmatrix.dir/COptimisable.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/COptimisable.cpp.o.provides.build
-.PHONY : CMakeFiles/cmatrix.dir/COptimisable.cpp.o.provides
+CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o.provides
 
-CMakeFiles/cmatrix.dir/COptimisable.cpp.o.provides.build: CMakeFiles/cmatrix.dir/COptimisable.cpp.o
+CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o
 
 
-CMakeFiles/cmatrix.dir/CKern.cpp.o: CMakeFiles/cmatrix.dir/flags.make
-CMakeFiles/cmatrix.dir/CKern.cpp.o: ../CKern.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cmatrix.dir/CKern.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/CKern.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/CKern.cpp
+CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o: ../src/GPc/CTransform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/CTransform.cpp
 
-CMakeFiles/cmatrix.dir/CKern.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/CKern.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/CKern.cpp > CMakeFiles/cmatrix.dir/CKern.cpp.i
+CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/CTransform.cpp > CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.i
 
-CMakeFiles/cmatrix.dir/CKern.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/CKern.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/CKern.cpp -o CMakeFiles/cmatrix.dir/CKern.cpp.s
+CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/CTransform.cpp -o CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.s
 
-CMakeFiles/cmatrix.dir/CKern.cpp.o.requires:
+CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o.requires:
 
-.PHONY : CMakeFiles/cmatrix.dir/CKern.cpp.o.requires
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o.requires
 
-CMakeFiles/cmatrix.dir/CKern.cpp.o.provides: CMakeFiles/cmatrix.dir/CKern.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/CKern.cpp.o.provides.build
-.PHONY : CMakeFiles/cmatrix.dir/CKern.cpp.o.provides
+CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o.provides
 
-CMakeFiles/cmatrix.dir/CKern.cpp.o.provides.build: CMakeFiles/cmatrix.dir/CKern.cpp.o
+CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o
 
 
-CMakeFiles/cmatrix.dir/CDist.cpp.o: CMakeFiles/cmatrix.dir/flags.make
-CMakeFiles/cmatrix.dir/CDist.cpp.o: ../CDist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cmatrix.dir/CDist.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/CDist.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/CDist.cpp
+CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o: ../src/GPc/COptimisable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/COptimisable.cpp
 
-CMakeFiles/cmatrix.dir/CDist.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/CDist.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/CDist.cpp > CMakeFiles/cmatrix.dir/CDist.cpp.i
+CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/COptimisable.cpp > CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.i
 
-CMakeFiles/cmatrix.dir/CDist.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/CDist.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/CDist.cpp -o CMakeFiles/cmatrix.dir/CDist.cpp.s
+CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/COptimisable.cpp -o CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.s
 
-CMakeFiles/cmatrix.dir/CDist.cpp.o.requires:
+CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o.requires:
 
-.PHONY : CMakeFiles/cmatrix.dir/CDist.cpp.o.requires
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o.requires
 
-CMakeFiles/cmatrix.dir/CDist.cpp.o.provides: CMakeFiles/cmatrix.dir/CDist.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/CDist.cpp.o.provides.build
-.PHONY : CMakeFiles/cmatrix.dir/CDist.cpp.o.provides
+CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o.provides
 
-CMakeFiles/cmatrix.dir/CDist.cpp.o.provides.build: CMakeFiles/cmatrix.dir/CDist.cpp.o
+CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o
 
 
-CMakeFiles/cmatrix.dir/ndlassert.cpp.o: CMakeFiles/cmatrix.dir/flags.make
-CMakeFiles/cmatrix.dir/ndlassert.cpp.o: ../ndlassert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cmatrix.dir/ndlassert.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/ndlassert.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/ndlassert.cpp
+CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o: ../src/GPc/CKern.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/CKern.cpp
 
-CMakeFiles/cmatrix.dir/ndlassert.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/ndlassert.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/ndlassert.cpp > CMakeFiles/cmatrix.dir/ndlassert.cpp.i
+CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/CKern.cpp > CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.i
 
-CMakeFiles/cmatrix.dir/ndlassert.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/ndlassert.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/ndlassert.cpp -o CMakeFiles/cmatrix.dir/ndlassert.cpp.s
+CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/CKern.cpp -o CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.s
 
-CMakeFiles/cmatrix.dir/ndlassert.cpp.o.requires:
+CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o.requires:
 
-.PHONY : CMakeFiles/cmatrix.dir/ndlassert.cpp.o.requires
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o.requires
 
-CMakeFiles/cmatrix.dir/ndlassert.cpp.o.provides: CMakeFiles/cmatrix.dir/ndlassert.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/ndlassert.cpp.o.provides.build
-.PHONY : CMakeFiles/cmatrix.dir/ndlassert.cpp.o.provides
+CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o.provides
 
-CMakeFiles/cmatrix.dir/ndlassert.cpp.o.provides.build: CMakeFiles/cmatrix.dir/ndlassert.cpp.o
+CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o
 
 
-CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o: CMakeFiles/cmatrix.dir/flags.make
-CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o: ../CRbfardKern.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/CRbfardKern.cpp
+CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o: ../src/GPc/CDist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/CDist.cpp
 
-CMakeFiles/cmatrix.dir/CRbfardKern.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/CRbfardKern.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/CRbfardKern.cpp > CMakeFiles/cmatrix.dir/CRbfardKern.cpp.i
+CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/CDist.cpp > CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.i
 
-CMakeFiles/cmatrix.dir/CRbfardKern.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/CRbfardKern.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/CRbfardKern.cpp -o CMakeFiles/cmatrix.dir/CRbfardKern.cpp.s
+CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/CDist.cpp -o CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.s
 
-CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o.requires:
+CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o.requires:
 
-.PHONY : CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o.requires
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o.requires
 
-CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o.provides: CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o.provides.build
-.PHONY : CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o.provides
+CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o.provides
 
-CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o.provides.build: CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o
+CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o
 
 
-CMakeFiles/cmatrix.dir/CRbfKern.cpp.o: CMakeFiles/cmatrix.dir/flags.make
-CMakeFiles/cmatrix.dir/CRbfKern.cpp.o: ../CRbfKern.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cmatrix.dir/CRbfKern.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/CRbfKern.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/CRbfKern.cpp
+CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o: ../src/GPc/ndlassert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlassert.cpp
 
-CMakeFiles/cmatrix.dir/CRbfKern.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/CRbfKern.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/CRbfKern.cpp > CMakeFiles/cmatrix.dir/CRbfKern.cpp.i
+CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlassert.cpp > CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.i
 
-CMakeFiles/cmatrix.dir/CRbfKern.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/CRbfKern.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/CRbfKern.cpp -o CMakeFiles/cmatrix.dir/CRbfKern.cpp.s
+CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlassert.cpp -o CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.s
 
-CMakeFiles/cmatrix.dir/CRbfKern.cpp.o.requires:
+CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o.requires:
 
-.PHONY : CMakeFiles/cmatrix.dir/CRbfKern.cpp.o.requires
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o.requires
 
-CMakeFiles/cmatrix.dir/CRbfKern.cpp.o.provides: CMakeFiles/cmatrix.dir/CRbfKern.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/CRbfKern.cpp.o.provides.build
-.PHONY : CMakeFiles/cmatrix.dir/CRbfKern.cpp.o.provides
+CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o.provides
 
-CMakeFiles/cmatrix.dir/CRbfKern.cpp.o.provides.build: CMakeFiles/cmatrix.dir/CRbfKern.cpp.o
+CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o
+
+
+CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o: ../src/GPc/CRbfardKern.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/CRbfardKern.cpp
+
+CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/CRbfardKern.cpp > CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.i
+
+CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/CRbfardKern.cpp -o CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.s
+
+CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o.requires:
+
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o.requires
+
+CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o.provides
+
+CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o
+
+
+CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o: CMakeFiles/cmatrix.dir/flags.make
+CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o: ../src/GPc/CRbfKern.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o -c /home/juraj/git/master_thesis/gp/GPc/src/GPc/CRbfKern.cpp
+
+CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juraj/git/master_thesis/gp/GPc/src/GPc/CRbfKern.cpp > CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.i
+
+CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juraj/git/master_thesis/gp/GPc/src/GPc/CRbfKern.cpp -o CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.s
+
+CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o.requires:
+
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o.requires
+
+CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o.provides: CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o.provides.build
+.PHONY : CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o.provides
+
+CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o.provides.build: CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o
 
 
 # Object files for target cmatrix
 cmatrix_OBJECTS = \
-"CMakeFiles/cmatrix.dir/CClctrl.cpp.o" \
-"CMakeFiles/cmatrix.dir/CGp.cpp.o" \
-"CMakeFiles/cmatrix.dir/CMatrix.cpp.o" \
-"CMakeFiles/cmatrix.dir/CNoise.cpp.o" \
-"CMakeFiles/cmatrix.dir/ndlutil.cpp.o" \
-"CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o" \
-"CMakeFiles/cmatrix.dir/CTransform.cpp.o" \
-"CMakeFiles/cmatrix.dir/COptimisable.cpp.o" \
-"CMakeFiles/cmatrix.dir/CKern.cpp.o" \
-"CMakeFiles/cmatrix.dir/CDist.cpp.o" \
-"CMakeFiles/cmatrix.dir/ndlassert.cpp.o" \
-"CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o" \
-"CMakeFiles/cmatrix.dir/CRbfKern.cpp.o"
+"CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o" \
+"CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o"
 
 # External object files for target cmatrix
 cmatrix_EXTERNAL_OBJECTS = \
 "/home/juraj/git/master_thesis/gp/GPc/lib/ndlfortran.o"
 
-libcmatrix.a: CMakeFiles/cmatrix.dir/CClctrl.cpp.o
-libcmatrix.a: CMakeFiles/cmatrix.dir/CGp.cpp.o
-libcmatrix.a: CMakeFiles/cmatrix.dir/CMatrix.cpp.o
-libcmatrix.a: CMakeFiles/cmatrix.dir/CNoise.cpp.o
-libcmatrix.a: CMakeFiles/cmatrix.dir/ndlutil.cpp.o
-libcmatrix.a: CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o
-libcmatrix.a: CMakeFiles/cmatrix.dir/CTransform.cpp.o
-libcmatrix.a: CMakeFiles/cmatrix.dir/COptimisable.cpp.o
-libcmatrix.a: CMakeFiles/cmatrix.dir/CKern.cpp.o
-libcmatrix.a: CMakeFiles/cmatrix.dir/CDist.cpp.o
-libcmatrix.a: CMakeFiles/cmatrix.dir/ndlassert.cpp.o
-libcmatrix.a: CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o
-libcmatrix.a: CMakeFiles/cmatrix.dir/CRbfKern.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o
+libcmatrix.a: CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o
 libcmatrix.a: ../lib/ndlfortran.o
 libcmatrix.a: CMakeFiles/cmatrix.dir/build.make
 libcmatrix.a: CMakeFiles/cmatrix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libcmatrix.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX static library libcmatrix.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/cmatrix.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cmatrix.dir/link.txt --verbose=$(VERBOSE)
 
@@ -414,19 +466,21 @@ CMakeFiles/cmatrix.dir/build: libcmatrix.a
 
 .PHONY : CMakeFiles/cmatrix.dir/build
 
-CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/CClctrl.cpp.o.requires
-CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/CGp.cpp.o.requires
-CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/CMatrix.cpp.o.requires
-CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/CNoise.cpp.o.requires
-CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/ndlutil.cpp.o.requires
-CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o.requires
-CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/CTransform.cpp.o.requires
-CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/COptimisable.cpp.o.requires
-CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/CKern.cpp.o.requires
-CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/CDist.cpp.o.requires
-CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/ndlassert.cpp.o.requires
-CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o.requires
-CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/CRbfKern.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o.requires
+CMakeFiles/cmatrix.dir/requires: CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o.requires
 
 .PHONY : CMakeFiles/cmatrix.dir/requires
 

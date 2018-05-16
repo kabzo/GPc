@@ -194,9 +194,6 @@ CMatrix_BINARY_DIR:STATIC=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug
 //Value Computed by CMake
 CMatrix_SOURCE_DIR:STATIC=/home/juraj/git/master_thesis/gp/GPc
 
-//No help, variable specified on the command line.
-MATLABFLAG:UNINITIALIZED=_NDLMATLAB
-
 //Path to a program.
 ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 

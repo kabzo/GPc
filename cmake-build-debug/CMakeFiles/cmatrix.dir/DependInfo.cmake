@@ -4,19 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/juraj/git/master_thesis/gp/GPc/CClctrl.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/CClctrl.cpp.o"
-  "/home/juraj/git/master_thesis/gp/GPc/CDist.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/CDist.cpp.o"
-  "/home/juraj/git/master_thesis/gp/GPc/CGp.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/CGp.cpp.o"
-  "/home/juraj/git/master_thesis/gp/GPc/CKern.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/CKern.cpp.o"
-  "/home/juraj/git/master_thesis/gp/GPc/CMatrix.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/CMatrix.cpp.o"
-  "/home/juraj/git/master_thesis/gp/GPc/CNoise.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/CNoise.cpp.o"
-  "/home/juraj/git/master_thesis/gp/GPc/COptimisable.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/COptimisable.cpp.o"
-  "/home/juraj/git/master_thesis/gp/GPc/CRbfKern.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/CRbfKern.cpp.o"
-  "/home/juraj/git/master_thesis/gp/GPc/CRbfardKern.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/CRbfardKern.cpp.o"
-  "/home/juraj/git/master_thesis/gp/GPc/CTransform.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/CTransform.cpp.o"
-  "/home/juraj/git/master_thesis/gp/GPc/ndlassert.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/ndlassert.cpp.o"
-  "/home/juraj/git/master_thesis/gp/GPc/ndlstrutil.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/ndlstrutil.cpp.o"
-  "/home/juraj/git/master_thesis/gp/GPc/ndlutil.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/ndlutil.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/CClctrl.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/CDist.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/CGp.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/CKern.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/CMatrix.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/COptimisable.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/CRbfKern.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/CRbfardKern.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/CTransform.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlassert.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlstrutil.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/ndlutil.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CGaussianMultiDimNoise.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CGaussianNoise.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o"
+  "/home/juraj/git/master_thesis/gp/GPc/src/GPc/noise/CNoise.cpp" "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -32,6 +34,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/juraj/git/master_thesis/gp/ndlutil/src"
   "/home/juraj/git/master_thesis/gp/matrix/src"
   "/home/juraj/git/master_thesis/gp/branches/helper/src"
+  "../include/GPc"
   "/usr/local/include"
   "/usr/local/include/eigen3"
   "/opt/MATLAB/R2018a/extern/include"

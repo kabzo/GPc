@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC -g   -std=c++11
 
 CXX_DEFINES = -D_FORTRAN_MAIN_FIX -D_NDLMATLAB
 
-CXX_INCLUDES = -I/home/juraj/git/master_thesis/gp/GPc/. -I/home/juraj/git/master_thesis/gp/ndlutil/src -I/home/juraj/git/master_thesis/gp/matrix/src -I/home/juraj/git/master_thesis/gp/branches/helper/src -I/usr/local/include -I/usr/local/include/eigen3 -I/opt/MATLAB/R2018a/extern/include 
+CXX_INCLUDES = -I/home/juraj/git/master_thesis/gp/GPc/. -I/home/juraj/git/master_thesis/gp/ndlutil/src -I/home/juraj/git/master_thesis/gp/matrix/src -I/home/juraj/git/master_thesis/gp/branches/helper/src -I/home/juraj/git/master_thesis/gp/GPc/include/GPc -I/usr/local/include -I/usr/local/include/eigen3 -I/opt/MATLAB/R2018a/extern/include 
 

@@ -19,6 +19,7 @@ INCLUDE_DIRECTORIES(. ${HDF5_INCLUDE_DIR}
         ${MLPROJECTS_BASE_DIR}/matrix/src
         ${MLPROJECTS_BASE_DIR}/branches/helper/src
         /usr/include
+        include/GPc
         /usr/local/include        #for boost
         /usr/local/include/eigen3 #for eigen3
         /opt/MATLAB/R2018a/extern/include
@@ -46,20 +47,22 @@ ADD_DEFINITIONS(-D_FORTRAN_MAIN_FIX)
 ADD_DEFINITIONS(-D_NDLMATLAB)
 
 add_library(cmatrix STATIC ${CMatrix_sources}
-        CClctrl.cpp
-        CGp.cpp
-        CMatrix.cpp
-        CNoise.cpp
-        ndlutil.cpp
-        ndlstrutil.cpp
-        CTransform.cpp
-        COptimisable.cpp
-        CKern.cpp
-        CDist.cpp
-        ndlassert.cpp
+        src/GPc/CClctrl.cpp
+        src/GPc/CGp.cpp
+        src/GPc/CMatrix.cpp
+        src/GPc/noise/CNoise.cpp
+        src/GPc/noise/CGaussianNoise.cpp
+        src/GPc/noise/CGaussianMultiDimNoise.cpp
+        src/GPc/ndlutil.cpp
+        src/GPc/ndlstrutil.cpp
+        src/GPc/CTransform.cpp
+        src/GPc/COptimisable.cpp
+        src/GPc/CKern.cpp
+        src/GPc/CDist.cpp
+        src/GPc/ndlassert.cpp
+        src/GPc/CRbfardKern.cpp
+        src/GPc/CRbfKern.cpp
         lib/ndlfortran.o
-        CRbfardKern.cpp
-        CRbfKern.cpp
         )
 
 TARGET_LINK_LIBRARIES(cmatrix mat mx gfortran lapack blas)

@@ -20,6 +20,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/juraj/git/master_thesis/gp/ndlutil/src"
   "/home/juraj/git/master_thesis/gp/matrix/src"
   "/home/juraj/git/master_thesis/gp/branches/helper/src"
+  "../include/GPc"
   "/usr/local/include"
   "/usr/local/include/eigen3"
   "/opt/MATLAB/R2018a/extern/include"

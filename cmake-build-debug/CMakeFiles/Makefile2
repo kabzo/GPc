@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug
 CMakeFiles/testGP.dir/all: CMakeFiles/cmatrix.dir/all
 	$(MAKE) -f CMakeFiles/testGP.dir/build.make CMakeFiles/testGP.dir/depend
 	$(MAKE) -f CMakeFiles/testGP.dir/build.make CMakeFiles/testGP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target testGP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target testGP"
 .PHONY : CMakeFiles/testGP.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/testGP.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testGP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testGP.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/testGP.dir/rule
@@ -103,7 +103,7 @@ clean: CMakeFiles/testGP.dir/clean
 CMakeFiles/gp.dir/all: CMakeFiles/cmatrix.dir/all
 	$(MAKE) -f CMakeFiles/gp.dir/build.make CMakeFiles/gp.dir/depend
 	$(MAKE) -f CMakeFiles/gp.dir/build.make CMakeFiles/gp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target gp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target gp"
 .PHONY : CMakeFiles/gp.dir/all
 
 # Include target in all.
@@ -113,7 +113,7 @@ all: CMakeFiles/gp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/gp.dir/rule
@@ -140,7 +140,7 @@ clean: CMakeFiles/gp.dir/clean
 CMakeFiles/cmatrix.dir/all:
 	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/depend
 	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target cmatrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target cmatrix"
 .PHONY : CMakeFiles/cmatrix.dir/all
 
 # Include target in all.
@@ -150,7 +150,7 @@ all: CMakeFiles/cmatrix.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cmatrix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cmatrix.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/cmatrix.dir/rule
@@ -177,7 +177,7 @@ clean: CMakeFiles/cmatrix.dir/clean
 CMakeFiles/testKern.dir/all: CMakeFiles/cmatrix.dir/all
 	$(MAKE) -f CMakeFiles/testKern.dir/build.make CMakeFiles/testKern.dir/depend
 	$(MAKE) -f CMakeFiles/testKern.dir/build.make CMakeFiles/testKern.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target testKern"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target testKern"
 .PHONY : CMakeFiles/testKern.dir/all
 
 # Include target in all.
@@ -187,7 +187,7 @@ all: CMakeFiles/testKern.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testKern.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testKern.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/testKern.dir/rule
@@ -214,7 +214,7 @@ clean: CMakeFiles/testKern.dir/clean
 CMakeFiles/testDist.dir/all: CMakeFiles/cmatrix.dir/all
 	$(MAKE) -f CMakeFiles/testDist.dir/build.make CMakeFiles/testDist.dir/depend
 	$(MAKE) -f CMakeFiles/testDist.dir/build.make CMakeFiles/testDist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target testDist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target testDist"
 .PHONY : CMakeFiles/testDist.dir/all
 
 # Include target in all.
@@ -224,7 +224,7 @@ all: CMakeFiles/testDist.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testDist.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testDist.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/testDist.dir/rule
@@ -251,7 +251,7 @@ clean: CMakeFiles/testDist.dir/clean
 CMakeFiles/testCode.dir/all: CMakeFiles/cmatrix.dir/all
 	$(MAKE) -f CMakeFiles/testCode.dir/build.make CMakeFiles/testCode.dir/depend
 	$(MAKE) -f CMakeFiles/testCode.dir/build.make CMakeFiles/testCode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target testCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target testCode"
 .PHONY : CMakeFiles/testCode.dir/all
 
 # Include target in all.
@@ -261,7 +261,7 @@ all: CMakeFiles/testCode.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testCode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testCode.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/testCode.dir/rule
@@ -288,7 +288,7 @@ clean: CMakeFiles/testCode.dir/clean
 CMakeFiles/testMatrix.dir/all: CMakeFiles/cmatrix.dir/all
 	$(MAKE) -f CMakeFiles/testMatrix.dir/build.make CMakeFiles/testMatrix.dir/depend
 	$(MAKE) -f CMakeFiles/testMatrix.dir/build.make CMakeFiles/testMatrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target testMatrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target testMatrix"
 .PHONY : CMakeFiles/testMatrix.dir/all
 
 # Include target in all.
@@ -298,7 +298,7 @@ all: CMakeFiles/testMatrix.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testMatrix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testMatrix.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/testMatrix.dir/rule
@@ -325,7 +325,7 @@ clean: CMakeFiles/testMatrix.dir/clean
 CMakeFiles/testNoise.dir/all: CMakeFiles/cmatrix.dir/all
 	$(MAKE) -f CMakeFiles/testNoise.dir/build.make CMakeFiles/testNoise.dir/depend
 	$(MAKE) -f CMakeFiles/testNoise.dir/build.make CMakeFiles/testNoise.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target testNoise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target testNoise"
 .PHONY : CMakeFiles/testNoise.dir/all
 
 # Include target in all.
@@ -335,7 +335,7 @@ all: CMakeFiles/testNoise.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testNoise.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testNoise.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/testNoise.dir/rule
@@ -362,7 +362,7 @@ clean: CMakeFiles/testNoise.dir/clean
 CMakeFiles/testGPML.dir/all: CMakeFiles/cmatrix.dir/all
 	$(MAKE) -f CMakeFiles/testGPML.dir/build.make CMakeFiles/testGPML.dir/depend
 	$(MAKE) -f CMakeFiles/testGPML.dir/build.make CMakeFiles/testGPML.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target testGPML"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target testGPML"
 .PHONY : CMakeFiles/testGPML.dir/all
 
 # Include target in all.
@@ -372,7 +372,7 @@ all: CMakeFiles/testGPML.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testGPML.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testGPML.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/testGPML.dir/rule

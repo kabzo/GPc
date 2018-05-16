@@ -543,7 +543,7 @@ void CMatrix::rand() {
     }
 }
 void CMatrix::randn(double var, double mean) {
-    double            sd = sqrt(var);
+    double            sd = std::sqrt(var);
     double            val;
     for (unsigned int i  = 0; i < nrows * ncols; i++) {
         val = ndlutil::randn();
@@ -800,6 +800,7 @@ double CMatrix::jitChol(CMatrix &A, unsigned int maxTries) {
 }
 
 ostream &operator<<(ostream &out, const CMatrix &A) {
+    out << "-----------------------------------------------------" << std::endl;
     out << "rows: " << A.getRows() << "| cols: " << A.getCols() << std::endl;
     for (unsigned int i = 0; i < A.getRows(); i++) {
         for (unsigned int j = 0; j < A.getCols(); j++) {
@@ -811,6 +812,7 @@ ostream &operator<<(ostream &out, const CMatrix &A) {
         }
         out << endl;
     }
+    out << "-----------------------------------------------------" << std::endl;
     return out;
 }
 

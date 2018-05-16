@@ -1,4 +1,4 @@
-/opt/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DMATLABFLAG=_NDLMATLAB -G "CodeBlocks - Unix Makefiles" /home/juraj/git/master_thesis/gp/GPc
+/opt/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/juraj/git/master_thesis/gp/GPc
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/juraj/git/master_thesis/gp/GPc/cmake-build-debug

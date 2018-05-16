@@ -194,7 +194,6 @@ class CMatrix : public CMatInterface, public CStreamInterface {
         _init();
         memAllocate();
         copy(A);
-
     }
     // The class destructor, it deallocates the memory.
     virtual ~CMatrix() {
@@ -822,6 +821,18 @@ class CMatrix : public CMatInterface, public CStreamInterface {
     void operator-() {
         negate();
     }
+
+    CMatrix &operator=(const CMatrix &A) {
+        nrows      = A.nrows;
+        ncols      = A.ncols;
+        symmetric  = A.symmetric;
+        triangular = A.triangular;
+        _init();
+        memAllocate();
+        copy(A);
+        return *this;
+    }
+
     // element by element operations
     // the MATLAB .* (element by element multiply)
     void dotMultiply(const CMatrix &A) {
@@ -887,6 +898,16 @@ class CMatrix : public CMatInterface, public CStreamInterface {
     void exp() {
         for (unsigned int i = 0; i < nrows * ncols; i++)
             vals[i]         = std::exp(vals[i]);
+    }
+    // square root each element of the matrix.
+    void sqrt() {
+        for (unsigned int i = 0; i < nrows * ncols; i++)
+            vals[i]         = std::sqrt(vals[i]);
+    }
+    // squared each element of the matrix.
+    void squared() {
+        for (unsigned int i = 0; i < nrows * ncols; i++)
+            vals[i]         = vals[i] * vals[i];
     }
     // take hyperbolic tangent of each element.
     void tanh() {
