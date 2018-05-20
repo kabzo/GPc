@@ -90,7 +90,7 @@ testGPML_EXTERNAL_OBJECTS =
 
 testGPML: CMakeFiles/testGPML.dir/test/testGPML.cpp.o
 testGPML: CMakeFiles/testGPML.dir/build.make
-testGPML: libcmatrix.a
+testGPML: libGPc.a
 testGPML: CMakeFiles/testGPML.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testGPML"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testGPML.dir/link.txt --verbose=$(VERBOSE)

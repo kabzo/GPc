@@ -90,7 +90,7 @@ testKern_EXTERNAL_OBJECTS =
 
 testKern: CMakeFiles/testKern.dir/test/testKern.cpp.o
 testKern: CMakeFiles/testKern.dir/build.make
-testKern: libcmatrix.a
+testKern: libGPc.a
 testKern: CMakeFiles/testKern.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testKern"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testKern.dir/link.txt --verbose=$(VERBOSE)

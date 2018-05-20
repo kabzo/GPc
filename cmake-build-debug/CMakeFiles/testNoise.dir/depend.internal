@@ -7,7 +7,6 @@ CMakeFiles/testNoise.dir/test/testNoise.cpp.o
  ../include/GPc/CKern.h
  ../include/GPc/CMatrix.h
  ../include/GPc/CNdlInterfaces.h
- ../include/GPc/CNoise.h
  ../include/GPc/COptimisable.h
  ../include/GPc/CTransform.h
  ../include/GPc/lapack.h
@@ -16,6 +15,10 @@ CMakeFiles/testNoise.dir/test/testNoise.cpp.o
  ../include/GPc/ndlfortran.h
  ../include/GPc/ndlstrutil.h
  ../include/GPc/ndlutil.h
+ ../include/GPc/noise/CGaussianMultiDimNoise.h
+ ../include/GPc/noise/CGaussianNoise.h
+ ../include/GPc/noise/CNoise.h
+ ../include/GPc/noise/CNoiseTypes.h
  /home/juraj/git/master_thesis/gp/GPc/test/testNoise.cpp
  /opt/MATLAB/R2018a/extern/include/mat.h
  /opt/MATLAB/R2018a/extern/include/matrix.h

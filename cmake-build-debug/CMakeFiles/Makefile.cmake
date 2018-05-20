@@ -45,9 +45,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/GPc.dir/DependInfo.cmake"
   "CMakeFiles/testGP.dir/DependInfo.cmake"
   "CMakeFiles/gp.dir/DependInfo.cmake"
-  "CMakeFiles/cmatrix.dir/DependInfo.cmake"
   "CMakeFiles/testKern.dir/DependInfo.cmake"
   "CMakeFiles/testDist.dir/DependInfo.cmake"
   "CMakeFiles/testCode.dir/DependInfo.cmake"

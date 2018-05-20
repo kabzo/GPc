@@ -2,134 +2,83 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="CMatrix" targetName="testGPML" />
-      <config projectName="CMatrix" targetName="gp" />
-      <config projectName="CMatrix" targetName="testMatrix" />
-      <config projectName="CMatrix" targetName="testDist" />
-      <config projectName="CMatrix" targetName="testGP" />
-      <config projectName="CMatrix" targetName="cmatrix" />
-      <config projectName="CMatrix" targetName="testNoise" />
-      <config projectName="CMatrix" targetName="testKern" />
-      <config projectName="CMatrix" targetName="testCode" />
+      <config projectName="GPc" targetName="clean_test_results" />
+      <config projectName="GPc" targetName="testGPML" />
+      <config projectName="GPc" targetName="testDist" />
+      <config projectName="GPc" targetName="GPc" />
+      <config projectName="GPc" targetName="doxygen" />
+      <config projectName="GPc" targetName="_catkin_empty_exported_target" />
+      <config projectName="GPc" targetName="testKern" />
+      <config projectName="GPc" targetName="testMatrix" />
+      <config projectName="GPc" targetName="gmock_main" />
+      <config projectName="GPc" targetName="gp" />
+      <config projectName="GPc" targetName="download_extra_data" />
+      <config projectName="GPc" targetName="run_tests" />
+      <config projectName="GPc" targetName="tests" />
+      <config projectName="GPc" targetName="testNoise" />
+      <config projectName="GPc" targetName="gtest_main" />
+      <config projectName="GPc" targetName="gmock" />
+      <config projectName="GPc" targetName="testGP" />
+      <config projectName="GPc" targetName="testCode" />
+      <config projectName="GPc" targetName="gtest" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Default" GENERATION_DIR="$PROJECT_DIR$/../../../build/GPc" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f600af1-6d19-4066-a1d1-d50283cce455" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/GPc/GMPLMultiDimGp.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/GPc/noise/CGaussianMultiDimNoise.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/GPc/noise/CGaussianNoise.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/GPc/noise/CNoiseTypes.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/GPc/noise/CGaussianMultiDimNoise.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/GPc/noise/CNoise.cpp" />
-      <change beforePath="$PROJECT_DIR$/CClctrl.cpp" afterPath="$PROJECT_DIR$/src/GPc/CClctrl.cpp" />
-      <change beforePath="$PROJECT_DIR$/CClctrl.h" afterPath="$PROJECT_DIR$/include/GPc/CClctrl.h" />
-      <change beforePath="$PROJECT_DIR$/CClctrl.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CDataModel.h" afterPath="$PROJECT_DIR$/include/GPc/CDataModel.h" />
-      <change beforePath="$PROJECT_DIR$/CDataModel.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CDist.cpp" afterPath="$PROJECT_DIR$/src/GPc/CDist.cpp" />
-      <change beforePath="$PROJECT_DIR$/CDist.h" afterPath="$PROJECT_DIR$/include/GPc/CDist.h" />
-      <change beforePath="$PROJECT_DIR$/CDist.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CGp.cpp" afterPath="$PROJECT_DIR$/src/GPc/CGp.cpp" />
-      <change beforePath="$PROJECT_DIR$/CGp.h" afterPath="$PROJECT_DIR$/include/GPc/CGp.h" />
-      <change beforePath="$PROJECT_DIR$/CKern.cpp" afterPath="$PROJECT_DIR$/src/GPc/CKern.cpp" />
-      <change beforePath="$PROJECT_DIR$/CKern.h" afterPath="$PROJECT_DIR$/include/GPc/CKern.h" />
-      <change beforePath="$PROJECT_DIR$/CKern.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CKernTypes.hpp" afterPath="$PROJECT_DIR$/include/GPc/CKernTypes.hpp" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/CMatlab.h" afterPath="$PROJECT_DIR$/include/GPc/CMatlab.h" />
-      <change beforePath="$PROJECT_DIR$/CMatrix.cpp" afterPath="$PROJECT_DIR$/src/GPc/CMatrix.cpp" />
-      <change beforePath="$PROJECT_DIR$/CMatrix.h" afterPath="$PROJECT_DIR$/include/GPc/CMatrix.h" />
-      <change beforePath="$PROJECT_DIR$/CMatrix.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CMltools.cpp" afterPath="$PROJECT_DIR$/src/GPc/CMltools.cpp" />
-      <change beforePath="$PROJECT_DIR$/CMltools.h" afterPath="$PROJECT_DIR$/include/GPc/CMltools.h" />
-      <change beforePath="$PROJECT_DIR$/CMltools.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CNdlInterfaces.h" afterPath="$PROJECT_DIR$/include/GPc/CNdlInterfaces.h" />
-      <change beforePath="$PROJECT_DIR$/CNoise.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CNoise.h" afterPath="$PROJECT_DIR$/include/GPc/noise/CNoise.h" />
-      <change beforePath="$PROJECT_DIR$/CNoise.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/COptimisable.cpp" afterPath="$PROJECT_DIR$/src/GPc/COptimisable.cpp" />
-      <change beforePath="$PROJECT_DIR$/COptimisable.h" afterPath="$PROJECT_DIR$/include/GPc/COptimisable.h" />
-      <change beforePath="$PROJECT_DIR$/COptimisable.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CPpa.cpp" afterPath="$PROJECT_DIR$/src/GPc/CPpa.cpp" />
-      <change beforePath="$PROJECT_DIR$/CPpa.h" afterPath="$PROJECT_DIR$/include/GPc/CPpa.h" />
-      <change beforePath="$PROJECT_DIR$/CRbfKern.cpp" afterPath="$PROJECT_DIR$/src/GPc/CRbfKern.cpp" />
-      <change beforePath="$PROJECT_DIR$/CRbfKern.hpp" afterPath="$PROJECT_DIR$/include/GPc/CRbfKern.hpp" />
-      <change beforePath="$PROJECT_DIR$/CRbfardKern.cpp" afterPath="$PROJECT_DIR$/src/GPc/CRbfardKern.cpp" />
-      <change beforePath="$PROJECT_DIR$/CRbfardKern.hpp" afterPath="$PROJECT_DIR$/include/GPc/CRbfardKern.hpp" />
-      <change beforePath="$PROJECT_DIR$/CTransform.cpp" afterPath="$PROJECT_DIR$/src/GPc/CTransform.cpp" />
-      <change beforePath="$PROJECT_DIR$/CTransform.h" afterPath="$PROJECT_DIR$/include/GPc/CTransform.h" />
-      <change beforePath="$PROJECT_DIR$/CTransform.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/C.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmatrix.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/CXX.includecache" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/build.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/depend.internal" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/depend.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/build.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testCode.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/build.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testDist.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/CXX.includecache" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/build.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/depend.internal" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/depend.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGP.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/build.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testGPML.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/build.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testKern.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/build.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testMatrix.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/CXX.includecache" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/build.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/depend.internal" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/depend.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testNoise.dir/link.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMatrix.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/CMatrix.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/testCode" afterPath="$PROJECT_DIR$/cmake-build-debug/testCode" />
@@ -140,18 +89,22 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/testMatrix" afterPath="$PROJECT_DIR$/cmake-build-debug/testMatrix" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/testNoise" afterPath="$PROJECT_DIR$/cmake-build-debug/testNoise" />
       <change beforePath="$PROJECT_DIR$/gpml_mat/GP_result.mat" afterPath="$PROJECT_DIR$/gpml_mat/GP_result.mat" />
-      <change beforePath="$PROJECT_DIR$/lapack.h" afterPath="$PROJECT_DIR$/include/GPc/lapack.h" />
-      <change beforePath="$PROJECT_DIR$/ndlassert.cpp" afterPath="$PROJECT_DIR$/src/GPc/ndlassert.cpp" />
-      <change beforePath="$PROJECT_DIR$/ndlassert.h" afterPath="$PROJECT_DIR$/include/GPc/ndlassert.h" />
-      <change beforePath="$PROJECT_DIR$/ndlexceptions.h" afterPath="$PROJECT_DIR$/include/GPc/ndlexceptions.h" />
-      <change beforePath="$PROJECT_DIR$/ndlfortran.h" afterPath="$PROJECT_DIR$/include/GPc/ndlfortran.h" />
-      <change beforePath="$PROJECT_DIR$/ndlstrutil.cpp" afterPath="$PROJECT_DIR$/src/GPc/ndlstrutil.cpp" />
-      <change beforePath="$PROJECT_DIR$/ndlstrutil.h" afterPath="$PROJECT_DIR$/include/GPc/ndlstrutil.h" />
-      <change beforePath="$PROJECT_DIR$/ndlutil.cpp" afterPath="$PROJECT_DIR$/src/GPc/ndlutil.cpp" />
-      <change beforePath="$PROJECT_DIR$/ndlutil.h" afterPath="$PROJECT_DIR$/include/GPc/ndlutil.h" />
-      <change beforePath="$PROJECT_DIR$/test/testGPML.cpp" afterPath="$PROJECT_DIR$/test/testGPML.cpp" />
+      <change beforePath="$PROJECT_DIR$/make.atlas" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/make.cygwin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/make.fc6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/make.inc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/make.linux" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/make.macports" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/make.osx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/make.ubuntu" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mex/compile.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mex/fGP.mex.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mex/test.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/testNoise.cpp" afterPath="$PROJECT_DIR$/test/testNoise.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/../../../build/GPc/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,13 +112,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Default" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CGp.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GPc/CGp.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="6048">
               <caret line="432" column="10" lean-forward="false" selection-start-line="432" selection-start-column="10" selection-end-line="432" selection-end-column="10" />
               <folding>
                 <element signature="e#17#91#0" expanded="false" />
@@ -215,8 +168,8 @@
       <file leaf-file-name="CNoise.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/GPc/noise/CNoise.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="29" column="105" lean-forward="false" selection-start-line="29" selection-start-column="105" selection-end-line="29" selection-end-column="105" />
+            <state relative-caret-position="672">
+              <caret line="48" column="49" lean-forward="false" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
               <folding>
                 <element signature="e#0#906#0" expanded="false" />
                 <element signature="e#1544#1648#0" expanded="false" />
@@ -309,7 +262,7 @@
       <file leaf-file-name="CGp.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/GPc/CGp.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="966">
               <caret line="69" column="10" lean-forward="false" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
               <folding />
             </state>
@@ -319,8 +272,8 @@
       <file leaf-file-name="testGPML.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/testGPML.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="84">
+              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -328,11 +281,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GMPLMultiDimGp.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CNdlInterfaces.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/GPc/CNdlInterfaces.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2772">
+              <caret line="198" column="7" lean-forward="false" selection-start-line="198" selection-start-column="7" selection-end-line="198" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GMPLMultiDimGp.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/GPc/GMPLMultiDimGp.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="159" column="51" lean-forward="false" selection-start-line="159" selection-start-column="51" selection-end-line="159" selection-end-column="51" />
+            <state relative-caret-position="406">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="e#0#2#0" expanded="false" />
                 <element signature="e#464#738#0" expanded="false" />
@@ -347,164 +310,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CGaussianNoise.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/GPc/noise/CGaussianNoise.h">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-              <folding>
-                <element signature="e#239#304#0" expanded="false" />
-                <element signature="e#309#455#0" expanded="false" />
-                <element signature="e#1697#1786#0" expanded="false" />
-                <element signature="e#1867#1968#0" expanded="false" />
-                <element signature="e#1973#2076#0" expanded="false" />
-                <element signature="e#2199#2377#0" expanded="false" />
-                <element signature="e#2382#2488#0" expanded="false" />
-                <element signature="e#2493#2658#0" expanded="false" />
-                <element signature="e#2663#2830#0" expanded="false" />
-                <element signature="e#2835#3004#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CGaussianNoise.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GPc/noise/CGaussianNoise.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="172" column="48" lean-forward="false" selection-start-line="172" selection-start-column="48" selection-end-line="172" selection-end-column="48" />
-              <folding>
-                <element signature="e#35#72#0" expanded="false" />
-                <element signature="e#74#494#0" expanded="false" />
-                <element signature="e#496#578#0" expanded="false" />
-                <element signature="e#580#769#0" expanded="false" />
-                <element signature="e#771#841#0" expanded="false" />
-                <element signature="e#843#953#0" expanded="false" />
-                <element signature="e#955#1269#0" expanded="false" />
-                <element signature="e#1514#1934#0" expanded="false" />
-                <element signature="e#1936#2177#0" expanded="false" />
-                <element signature="e#2179#2590#0" expanded="false" />
-                <element signature="e#3614#4225#0" expanded="false" />
-                <element signature="e#4227#4619#0" expanded="false" />
-                <element signature="e#4621#5177#0" expanded="false" />
-                <element signature="e#7124#7989#0" expanded="false" />
-                <element signature="e#7991#8385#0" expanded="false" />
-                <element signature="e#8387#8700#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CNoise.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GPc/noise/CNoise.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="1295" column="43" lean-forward="false" selection-start-line="1295" selection-start-column="43" selection-end-line="1295" selection-end-column="43" />
-              <folding>
-                <element signature="e#49#1000#0" expanded="false" />
-                <element signature="e#1002#1750#0" expanded="false" />
-                <element signature="e#1769#3029#0" expanded="false" />
-                <element signature="e#3030#3866#0" expanded="false" />
-                <element signature="e#3868#4292#0" expanded="false" />
-                <element signature="e#4294#4642#0" expanded="false" />
-                <element signature="e#4644#5028#0" expanded="false" />
-                <element signature="e#5030#5388#0" expanded="false" />
-                <element signature="e#5390#5782#0" expanded="false" />
-                <element signature="e#5784#6095#0" expanded="false" />
-                <element signature="e#6096#6919#0" expanded="false" />
-                <element signature="e#6921#7574#0" expanded="false" />
-                <element signature="e#7575#8189#0" expanded="false" />
-                <element signature="e#8191#8703#0" expanded="false" />
-                <element signature="e#8712#9149#0" expanded="false" />
-                <element signature="e#9150#9536#0" expanded="false" />
-                <element signature="e#9537#10557#0" expanded="false" />
-                <element signature="e#10559#10590#0" expanded="false" />
-                <element signature="e#10591#10949#0" expanded="false" />
-                <element signature="e#10950#11056#0" expanded="false" />
-                <element signature="e#11057#11140#0" expanded="false" />
-                <element signature="e#11141#11364#0" expanded="false" />
-                <element signature="e#11365#11721#0" expanded="false" />
-                <element signature="e#11722#12098#0" expanded="false" />
-                <element signature="e#12099#12406#0" expanded="false" />
-                <element signature="e#12407#12899#0" expanded="false" />
-                <element signature="e#12900#13172#0" expanded="false" />
-                <element signature="e#13173#13648#0" expanded="false" />
-                <element signature="e#13650#14352#0" expanded="false" />
-                <element signature="e#13788#14350#0" expanded="false" />
-                <element signature="e#14354#14705#0" expanded="false" />
-                <element signature="e#14538#14703#0" expanded="false" />
-                <element signature="e#14707#15326#0" expanded="false" />
-                <element signature="e#14871#15324#0" expanded="false" />
-                <element signature="e#15327#15829#0" expanded="false" />
-                <element signature="e#15830#16455#0" expanded="false" />
-                <element signature="e#16022#16453#0" expanded="false" />
-                <element signature="e#16457#16861#0" expanded="false" />
-                <element signature="e#16862#17400#0" expanded="false" />
-                <element signature="e#17401#18243#0" expanded="false" />
-                <element signature="e#17648#18241#0" expanded="false" />
-                <element signature="e#18245#19107#0" expanded="false" />
-                <element signature="e#18491#19105#0" expanded="false" />
-                <element signature="e#19109#19142#0" expanded="false" />
-                <element signature="e#19143#19462#0" expanded="false" />
-                <element signature="e#19463#19553#0" expanded="false" />
-                <element signature="e#19554#19630#0" expanded="false" />
-                <element signature="e#19631#19774#0" expanded="false" />
-                <element signature="e#19775#20151#0" expanded="false" />
-                <element signature="e#20153#20421#0" expanded="false" />
-                <element signature="e#20422#20582#0" expanded="false" />
-                <element signature="e#20583#20949#0" expanded="false" />
-                <element signature="e#20950#21166#0" expanded="false" />
-                <element signature="e#21167#21525#0" expanded="false" />
-                <element signature="e#21527#22162#0" expanded="false" />
-                <element signature="e#22163#22484#0" expanded="false" />
-                <element signature="e#22486#23313#0" expanded="false" />
-                <element signature="e#23314#23686#0" expanded="false" />
-                <element signature="e#23688#24254#0" expanded="false" />
-                <element signature="e#24255#25027#0" expanded="false" />
-                <element signature="e#25029#25800#0" expanded="false" />
-                <element signature="e#25802#25831#0" expanded="false" />
-                <element signature="e#25832#26517#0" expanded="false" />
-                <element signature="e#26518#26606#0" expanded="false" />
-                <element signature="e#26607#26686#0" expanded="false" />
-                <element signature="e#26687#26828#0" expanded="false" />
-                <element signature="e#26829#27473#0" expanded="false" />
-                <element signature="e#27474#27884#0" expanded="false" />
-                <element signature="e#27885#28265#0" expanded="false" />
-                <element signature="e#28266#28728#0" expanded="false" />
-                <element signature="e#28729#29125#0" expanded="false" />
-                <element signature="e#29126#29523#0" expanded="false" />
-                <element signature="e#29525#31586#0" expanded="false" />
-                <element signature="e#31587#32970#0" expanded="false" />
-                <element signature="e#32971#34206#0" expanded="false" />
-                <element signature="e#34208#34806#0" expanded="false" />
-                <element signature="e#34807#35169#0" expanded="false" />
-                <element signature="e#35170#36187#0" expanded="false" />
-                <element signature="e#36189#37684#0" expanded="false" />
-                <element signature="e#37685#38127#0" expanded="false" />
-                <element signature="e#38129#39214#0" expanded="false" />
-                <element signature="e#39215#39250#0" expanded="false" />
-                <element signature="e#39251#39914#0" expanded="false" />
-                <element signature="e#39915#40056#0" expanded="false" />
-                <element signature="e#40057#40148#0" expanded="false" />
-                <element signature="e#40149#40428#0" expanded="false" />
-                <element signature="e#40429#40498#0" expanded="false" />
-                <element signature="e#40499#40938#0" expanded="false" />
-                <element signature="e#40939#41269#0" expanded="false" />
-                <element signature="e#41270#41697#0" expanded="false" />
-                <element signature="e#41698#42011#0" expanded="false" />
-                <element signature="e#42012#42431#0" expanded="false" />
-                <element signature="e#42433#45056#0" expanded="false" />
-                <element signature="e#45057#46572#0" expanded="false" />
-                <element signature="e#46573#47419#0" expanded="false" />
-                <element signature="e#47421#48363#0" expanded="false" />
-                <element signature="e#48364#48741#0" expanded="false" />
-                <element signature="e#48742#50489#0" expanded="false" />
-                <element signature="e#50491#52223#0" expanded="false" />
-                <element signature="e#52224#52676#0" expanded="false" />
-                <element signature="e#52678#53781#0" expanded="false" />
-                <element signature="e#53783#53870#0" expanded="false" />
-                <element signature="e#53872#54890#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="462">
+              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -512,8 +323,8 @@
       <file leaf-file-name="CMatrix.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/GPc/CMatrix.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="909" column="47" lean-forward="false" selection-start-line="909" selection-start-column="47" selection-end-line="909" selection-end-column="47" />
+            <state relative-caret-position="742">
+              <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
               <folding>
                 <element signature="e#0#814#0" expanded="false" />
               </folding>
@@ -573,7 +384,6 @@
         <option value="$PROJECT_DIR$/src/GPc/CNoise.cpp" />
         <option value="$PROJECT_DIR$/include/GPc/noise/CNoiseTypes.hpp" />
         <option value="$PROJECT_DIR$/include/GPc/CMltools.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/GPc/noise/CNoiseTypes.h" />
         <option value="$PROJECT_DIR$/src/GPc/noise/CGaussianMultiDimNoise.cpp" />
         <option value="$PROJECT_DIR$/include/GPc/noise/CGaussianMultiDimNoise.h" />
@@ -588,6 +398,8 @@
         <option value="$PROJECT_DIR$/include/GPc/CGp.h" />
         <option value="$PROJECT_DIR$/src/GPc/CGp.cpp" />
         <option value="$PROJECT_DIR$/include/GPc/GMPLMultiDimGp.h" />
+        <option value="$PROJECT_DIR$/test/testNoise.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -599,10 +411,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="-11" />
-    <option name="width" value="1922" />
-    <option name="height" value="1092" />
+    <option name="x" value="1920" />
+    <option name="y" value="-4" />
+    <option name="width" value="1680" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -623,42 +435,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="CMatrix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="GPc" type="462c0819:PsiDirectoryNode" />
+              <item name="GPc" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="GPc" type="47feb1d3:ProjectViewModuleNode" />
             </path>
             <path>
-              <item name="CMatrix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="GPc" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="GPc" type="47feb1d3:ProjectViewModuleNode" />
               <item name="GPc" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMatrix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="GPc" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="GPc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMatrix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="GPc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMatrix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="GPc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GPc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMatrix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="GPc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GPc" type="462c0819:PsiDirectoryNode" />
-              <item name="noise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMatrix" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="GPc" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -669,6 +452,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../build/GPc/CMakeCache.txt" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -694,48 +478,88 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.testGPML">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CMatrix" RUN_TARGET_NAME="testGPML" EXPLICIT_BUILD_TARGET_NAME="all">
+  <component name="RunManager" selected="Application.Build All">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="GPc" RUN_TARGET_NAME="testGPML" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="cmatrix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CMatrix" TARGET_NAME="cmatrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CMatrix" RUN_TARGET_NAME="testGPML">
+    <configuration name="GPc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="GPc" CONFIG_NAME="Default">
       <envs />
     </configuration>
-    <configuration name="gp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CMatrix" TARGET_NAME="gp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CMatrix" RUN_TARGET_NAME="testGPML">
+    <configuration name="_catkin_empty_exported_target" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="_catkin_empty_exported_target" CONFIG_NAME="Default">
       <envs />
     </configuration>
-    <configuration name="testCode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CMatrix" TARGET_NAME="testCode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CMatrix" RUN_TARGET_NAME="testGPML">
+    <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="clean_test_results" CONFIG_NAME="Default">
       <envs />
     </configuration>
-    <configuration name="testDist" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CMatrix" TARGET_NAME="testDist" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CMatrix" RUN_TARGET_NAME="testGPML">
+    <configuration name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="download_extra_data" CONFIG_NAME="Default">
       <envs />
     </configuration>
-    <configuration name="testGP" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CMatrix" TARGET_NAME="testGP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CMatrix" RUN_TARGET_NAME="testGPML">
+    <configuration name="doxygen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="doxygen" CONFIG_NAME="Default">
       <envs />
     </configuration>
-    <configuration name="testGPML" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CMatrix" TARGET_NAME="testGPML" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CMatrix" RUN_TARGET_NAME="testGPML">
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="gmock" CONFIG_NAME="Default">
       <envs />
     </configuration>
-    <configuration name="testKern" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CMatrix" TARGET_NAME="testKern" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CMatrix" RUN_TARGET_NAME="testKern">
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="gmock_main" CONFIG_NAME="Default">
       <envs />
     </configuration>
-    <configuration name="testMatrix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CMatrix" TARGET_NAME="testMatrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CMatrix" RUN_TARGET_NAME="testMatrix">
+    <configuration name="gp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="gp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="GPc" RUN_TARGET_NAME="gp">
       <envs />
     </configuration>
-    <configuration name="testNoise" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CMatrix" TARGET_NAME="testNoise" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CMatrix" RUN_TARGET_NAME="testNoise">
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="gtest" CONFIG_NAME="Default">
       <envs />
     </configuration>
-    <list size="10">
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="gtest_main" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="run_tests" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="testCode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="testCode" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="GPc" RUN_TARGET_NAME="testCode">
+      <envs />
+    </configuration>
+    <configuration name="testDist" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="testDist" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="GPc" RUN_TARGET_NAME="testDist">
+      <envs />
+    </configuration>
+    <configuration name="testGP" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="testGP" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="GPc" RUN_TARGET_NAME="testGP">
+      <envs />
+    </configuration>
+    <configuration name="testGPML" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="testGPML" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="GPc" RUN_TARGET_NAME="testGPML">
+      <envs />
+    </configuration>
+    <configuration name="testKern" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="testKern" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="GPc" RUN_TARGET_NAME="testKern">
+      <envs />
+    </configuration>
+    <configuration name="testMatrix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="testMatrix" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="GPc" RUN_TARGET_NAME="testMatrix">
+      <envs />
+    </configuration>
+    <configuration name="testNoise" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="testNoise" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="GPc" RUN_TARGET_NAME="testNoise">
+      <envs />
+    </configuration>
+    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPc" TARGET_NAME="tests" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <list size="20">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.cmatrix" />
-      <item index="2" class="java.lang.String" itemvalue="Application.gp" />
-      <item index="3" class="java.lang.String" itemvalue="Application.testCode" />
-      <item index="4" class="java.lang.String" itemvalue="Application.testDist" />
-      <item index="5" class="java.lang.String" itemvalue="Application.testGP" />
-      <item index="6" class="java.lang.String" itemvalue="Application.testGPML" />
-      <item index="7" class="java.lang.String" itemvalue="Application.testKern" />
-      <item index="8" class="java.lang.String" itemvalue="Application.testMatrix" />
-      <item index="9" class="java.lang.String" itemvalue="Application.testNoise" />
+      <item index="1" class="java.lang.String" itemvalue="Application._catkin_empty_exported_target" />
+      <item index="2" class="java.lang.String" itemvalue="Application.clean_test_results" />
+      <item index="3" class="java.lang.String" itemvalue="Application.download_extra_data" />
+      <item index="4" class="java.lang.String" itemvalue="Application.doxygen" />
+      <item index="5" class="java.lang.String" itemvalue="Application.gp" />
+      <item index="6" class="java.lang.String" itemvalue="Application.GPc" />
+      <item index="7" class="java.lang.String" itemvalue="Application.run_tests" />
+      <item index="8" class="java.lang.String" itemvalue="Application.testCode" />
+      <item index="9" class="java.lang.String" itemvalue="Application.testDist" />
+      <item index="10" class="java.lang.String" itemvalue="Application.testGP" />
+      <item index="11" class="java.lang.String" itemvalue="Application.testGPML" />
+      <item index="12" class="java.lang.String" itemvalue="Application.testKern" />
+      <item index="13" class="java.lang.String" itemvalue="Application.testMatrix" />
+      <item index="14" class="java.lang.String" itemvalue="Application.testNoise" />
+      <item index="15" class="java.lang.String" itemvalue="Application.tests" />
+      <item index="16" class="java.lang.String" itemvalue="Application.gmock" />
+      <item index="17" class="java.lang.String" itemvalue="Application.gmock_main" />
+      <item index="18" class="java.lang.String" itemvalue="Application.gtest" />
+      <item index="19" class="java.lang.String" itemvalue="Application.gtest_main" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -755,27 +579,32 @@
       <workItem from="1526426982286" duration="2461000" />
       <workItem from="1526457390780" duration="7924000" />
       <workItem from="1526505200914" duration="2056000" />
+      <workItem from="1526754606629" duration="5524000" />
+      <workItem from="1526804736983" duration="642000" />
+      <workItem from="1526811370258" duration="461000" />
+      <workItem from="1526811853152" duration="732000" />
+      <workItem from="1526813702470" duration="97000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36753000" />
+    <option name="totallyTimeSpent" value="44209000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <frame x="1920" y="-4" width="1680" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2857143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32709718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34554973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35675675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4460733" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4460733" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -825,71 +654,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include/GPc/GMPLMultiDimGp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#2#0" expanded="false" />
-            <element signature="e#464#738#0" expanded="false" />
-            <element signature="e#1029#1217#0" expanded="false" />
-            <element signature="e#1506#1811#0" expanded="false" />
-            <element signature="e#3729#4100#0" expanded="false" />
-            <element signature="e#4106#4424#0" expanded="false" />
-            <element signature="e#4430#4726#0" expanded="false" />
-            <element signature="e#4732#5032#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GPc/CGp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8176">
-          <caret line="584" column="0" lean-forward="false" selection-start-line="584" selection-start-column="0" selection-end-line="584" selection-end-column="0" />
-          <folding>
-            <element signature="e#17#91#0" expanded="false" />
-            <element signature="e#93#1415#0" expanded="false" />
-            <element signature="e#1417#2580#0" expanded="false" />
-            <element signature="e#3916#4363#0" expanded="false" />
-            <element signature="e#4365#4443#0" expanded="false" />
-            <element signature="e#4445#4979#0" expanded="false" />
-            <element signature="e#4981#6363#0" expanded="false" />
-            <element signature="e#6365#8563#0" expanded="false" />
-            <element signature="e#8565#8851#0" expanded="false" />
-            <element signature="e#8852#9720#0" expanded="false" />
-            <element signature="e#9772#9838#0" expanded="false" />
-            <element signature="e#9840#10496#0" expanded="false" />
-            <element signature="e#10498#11878#0" expanded="false" />
-            <element signature="e#11880#13247#0" expanded="false" />
-            <element signature="e#13903#14107#0" expanded="false" />
-            <element signature="e#14109#14303#0" expanded="false" />
-            <element signature="e#14305#14468#0" expanded="false" />
-            <element signature="e#14470#16478#0" expanded="false" />
-            <element signature="e#20048#20759#0" expanded="false" />
-            <element signature="e#20761#20923#0" expanded="false" />
-            <element signature="e#20925#22805#0" expanded="false" />
-            <element signature="e#22807#27562#0" expanded="false" />
-            <element signature="e#27563#28794#0" expanded="false" />
-            <element signature="e#28796#32198#0" expanded="false" />
-            <element signature="e#32200#33889#0" expanded="false" />
-            <element signature="e#33891#39757#0" expanded="false" />
-            <element signature="e#39759#46539#0" expanded="false" />
-            <element signature="e#46541#46616#0" expanded="false" />
-            <element signature="e#46636#47166#0" expanded="false" />
-            <element signature="e#47167#50326#0" expanded="false" />
-            <element signature="e#50327#52379#0" expanded="false" />
-            <element signature="e#52415#52906#0" expanded="false" />
-            <element signature="e#52908#53836#0" expanded="false" />
-            <element signature="e#54858#56757#0" expanded="false" />
-            <element signature="e#56759#57656#0" expanded="false" />
-            <element signature="e#57657#57779#0" expanded="false" />
-            <element signature="e#57781#57913#0" expanded="false" />
-            <element signature="e#57915#58029#0" expanded="false" />
-            <element signature="e#58031#58654#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/GPc/CMatrix.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4004">
@@ -922,350 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3780">
           <caret line="270" column="17" lean-forward="false" selection-start-line="270" selection-start-column="17" selection-end-line="270" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#906#0" expanded="false" />
-            <element signature="e#941#960#0" expanded="false" />
-            <element signature="e#1544#1648#0" expanded="false" />
-            <element signature="e#2118#2683#0" expanded="false" />
-            <element signature="e#4085#4175#0" expanded="false" />
-            <element signature="e#4178#4232#0" expanded="false" />
-            <element signature="e#4235#4289#0" expanded="false" />
-            <element signature="e#4292#4351#0" expanded="false" />
-            <element signature="e#4354#4422#0" expanded="false" />
-            <element signature="e#4503#4615#0" expanded="false" />
-            <element signature="e#4618#4694#0" expanded="false" />
-            <element signature="e#4697#4773#0" expanded="false" />
-            <element signature="e#4776#4907#0" expanded="false" />
-            <element signature="e#4910#4981#0" expanded="false" />
-            <element signature="e#4990#5053#0" expanded="false" />
-            <element signature="e#5056#5117#0" expanded="false" />
-            <element signature="e#5120#5177#0" expanded="false" />
-            <element signature="e#5180#5248#0" expanded="false" />
-            <element signature="e#5251#5322#0" expanded="false" />
-            <element signature="e#5325#5389#0" expanded="false" />
-            <element signature="e#5392#5550#0" expanded="false" />
-            <element signature="e#5553#5893#0" expanded="false" />
-            <element signature="e#6418#6574#0" expanded="false" />
-            <element signature="e#6577#6745#0" expanded="false" />
-            <element signature="e#6751#7032#0" expanded="false" />
-            <element signature="e#7035#7328#0" expanded="false" />
-            <element signature="e#7421#7565#0" expanded="false" />
-            <element signature="e#7568#7691#0" expanded="false" />
-            <element signature="e#7694#7777#0" expanded="false" />
-            <element signature="e#7780#7851#0" expanded="false" />
-            <element signature="e#7857#7933#0" expanded="false" />
-            <element signature="e#8014#8085#0" expanded="false" />
-            <element signature="e#8089#8155#0" expanded="false" />
-            <element signature="e#8159#8228#0" expanded="false" />
-            <element signature="e#8232#8302#0" expanded="false" />
-            <element signature="e#8397#8463#0" expanded="false" />
-            <element signature="e#8769#8821#0" expanded="false" />
-            <element signature="e#8824#8927#0" expanded="false" />
-            <element signature="e#8951#9080#0" expanded="false" />
-            <element signature="e#9083#9214#0" expanded="false" />
-            <element signature="e#9217#9344#0" expanded="false" />
-            <element signature="e#9347#9476#0" expanded="false" />
-            <element signature="e#10658#10739#0" expanded="false" />
-            <element signature="e#10914#11010#0" expanded="false" />
-            <element signature="e#11013#11118#0" expanded="false" />
-            <element signature="e#11121#11284#0" expanded="false" />
-            <element signature="e#11287#11385#0" expanded="false" />
-            <element signature="e#11744#13970#1" expanded="false" />
-            <element signature="e#11795#11848#0" expanded="false" />
-            <element signature="e#11851#11956#0" expanded="false" />
-            <element signature="e#12957#13038#0" expanded="false" />
-            <element signature="e#13117#13210#0" expanded="false" />
-            <element signature="e#13213#13309#0" expanded="false" />
-            <element signature="e#13312#13417#0" expanded="false" />
-            <element signature="e#13420#13583#0" expanded="false" />
-            <element signature="e#13586#13684#0" expanded="false" />
-            <element signature="e#14075#16672#1" expanded="false" />
-            <element signature="e#14123#14174#0" expanded="false" />
-            <element signature="e#14177#14280#0" expanded="false" />
-            <element signature="e#15367#15448#0" expanded="false" />
-            <element signature="e#15527#15620#0" expanded="false" />
-            <element signature="e#15623#15719#0" expanded="false" />
-            <element signature="e#15722#15827#0" expanded="false" />
-            <element signature="e#15830#15993#0" expanded="false" />
-            <element signature="e#15996#16065#0" expanded="false" />
-            <element signature="e#16068#16124#0" expanded="false" />
-            <element signature="e#16127#16225#0" expanded="false" />
-            <element signature="e#16228#16320#0" expanded="false" />
-            <element signature="e#16675#19402#1" expanded="false" />
-            <element signature="e#16726#16780#0" expanded="false" />
-            <element signature="e#16783#16901#0" expanded="false" />
-            <element signature="e#16904#17048#0" expanded="false" />
-            <element signature="e#17074#17139#0" expanded="false" />
-            <element signature="e#17142#17250#0" expanded="false" />
-            <element signature="e#18320#18401#0" expanded="false" />
-            <element signature="e#18480#18573#0" expanded="false" />
-            <element signature="e#18576#18672#0" expanded="false" />
-            <element signature="e#18675#18780#0" expanded="false" />
-            <element signature="e#18783#18946#0" expanded="false" />
-            <element signature="e#18949#19047#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GPc/noise/CGaussianMultiDimNoise.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2814">
-          <caret line="201" column="17" lean-forward="false" selection-start-line="201" selection-start-column="17" selection-end-line="201" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GPc/CClctrl.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/GPc/CClctrl.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CDataModel.txt" />
-    <entry file="file://$PROJECT_DIR$/CDist.txt" />
-    <entry file="file://$PROJECT_DIR$/CKern.txt" />
-    <entry file="file://$PROJECT_DIR$/CClctrl.txt" />
-    <entry file="file://$PROJECT_DIR$/src/GPc/CMltools.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/make.ubuntu">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/make.atlas">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sinc_scatter_data.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sinc.model">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sinc_error_bar_data.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sinc_line_data.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/GPc/CMltools.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="54" column="48" lean-forward="false" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/GPc/noise/CNoiseTypes.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GPc/CTransform.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/GPc/CTransform.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="322" column="9" lean-forward="false" selection-start-line="322" selection-start-column="9" selection-end-line="322" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GPc/noise/CGaussianMultiDimNoise.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2814">
-          <caret line="201" column="17" lean-forward="false" selection-start-line="201" selection-start-column="17" selection-end-line="201" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/GPc/noise/CGaussianMultiDimNoise.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1372">
-          <caret line="98" column="21" lean-forward="false" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/GPc/CDataModel.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/GPc/CRbfardKern.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/MATLAB/R2018a/extern/include/matrix.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="693" column="19" lean-forward="true" selection-start-line="693" selection-start-column="19" selection-end-line="693" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GPc/CKern.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="3690" column="13" lean-forward="true" selection-start-line="3690" selection-start-column="13" selection-end-line="3690" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GPc/CRbfardKern.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/stl_pair.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/GPc/CKern.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="779" column="0" lean-forward="false" selection-start-line="779" selection-start-column="0" selection-end-line="779" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/ext/new_allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/GPc/CNdlInterfaces.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/GPc/lapack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GPc/CMatrix.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testGp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GPc/ndlassert.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/GPc/CMatrix.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="909" column="47" lean-forward="false" selection-start-line="909" selection-start-column="47" selection-end-line="909" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#814#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/GPc/noise/CNoise.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="29" column="105" lean-forward="false" selection-start-line="29" selection-start-column="105" selection-end-line="29" selection-end-column="105" />
           <folding>
             <element signature="e#0#906#0" expanded="false" />
             <element signature="e#1544#1648#0" expanded="false" />
@@ -1354,183 +774,202 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GPc/noise/CGaussianMultiDimNoise.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2814">
+          <caret line="201" column="17" lean-forward="false" selection-start-line="201" selection-start-column="17" selection-end-line="201" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GPc/CClctrl.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GPc/CClctrl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CDataModel.txt" />
+    <entry file="file://$PROJECT_DIR$/CDist.txt" />
+    <entry file="file://$PROJECT_DIR$/CKern.txt" />
+    <entry file="file://$PROJECT_DIR$/CClctrl.txt" />
+    <entry file="file://$PROJECT_DIR$/src/GPc/CMltools.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make.ubuntu" />
+    <entry file="file://$PROJECT_DIR$/makefile" />
+    <entry file="file://$PROJECT_DIR$/make.atlas" />
+    <entry file="file://$PROJECT_DIR$/sinc.model" />
+    <entry file="file://$PROJECT_DIR$/sinc_error_bar_data.dat" />
+    <entry file="file://$PROJECT_DIR$/sinc_line_data.dat" />
+    <entry file="file://$PROJECT_DIR$/include/GPc/CMltools.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GPc/noise/CNoiseTypes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GPc/CTransform.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GPc/CTransform.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="322" column="9" lean-forward="false" selection-start-line="322" selection-start-column="9" selection-end-line="322" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GPc/noise/CGaussianMultiDimNoise.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2814">
+          <caret line="201" column="17" lean-forward="false" selection-start-line="201" selection-start-column="17" selection-end-line="201" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GPc/noise/CGaussianMultiDimNoise.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1372">
+          <caret line="98" column="21" lean-forward="false" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GPc/CDataModel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GPc/CRbfardKern.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/MATLAB/R2018a/extern/include/matrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="693" column="19" lean-forward="true" selection-start-line="693" selection-start-column="19" selection-end-line="693" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GPc/CKern.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="3690" column="13" lean-forward="true" selection-start-line="3690" selection-start-column="13" selection-end-line="3690" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GPc/CRbfardKern.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_pair.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GPc/CKern.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="779" column="0" lean-forward="false" selection-start-line="779" selection-start-column="0" selection-end-line="779" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GPc/lapack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GPc/CMatrix.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testGp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GPc/ndlassert.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/GPc/noise/CGaussianNoise.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="588">
           <caret line="42" column="10" lean-forward="false" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-          <folding>
-            <element signature="e#239#304#0" expanded="false" />
-            <element signature="e#309#455#0" expanded="false" />
-            <element signature="e#1697#1786#0" expanded="false" />
-            <element signature="e#1867#1968#0" expanded="false" />
-            <element signature="e#1973#2076#0" expanded="false" />
-            <element signature="e#2199#2377#0" expanded="false" />
-            <element signature="e#2382#2488#0" expanded="false" />
-            <element signature="e#2493#2658#0" expanded="false" />
-            <element signature="e#2663#2830#0" expanded="false" />
-            <element signature="e#2835#3004#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GPc/noise/CGaussianNoise.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="2408">
           <caret line="172" column="48" lean-forward="false" selection-start-line="172" selection-start-column="48" selection-end-line="172" selection-end-column="48" />
-          <folding>
-            <element signature="e#35#72#0" expanded="false" />
-            <element signature="e#74#494#0" expanded="false" />
-            <element signature="e#496#578#0" expanded="false" />
-            <element signature="e#580#769#0" expanded="false" />
-            <element signature="e#771#841#0" expanded="false" />
-            <element signature="e#843#953#0" expanded="false" />
-            <element signature="e#955#1269#0" expanded="false" />
-            <element signature="e#1514#1934#0" expanded="false" />
-            <element signature="e#1936#2177#0" expanded="false" />
-            <element signature="e#2179#2590#0" expanded="false" />
-            <element signature="e#3614#4225#0" expanded="false" />
-            <element signature="e#4227#4619#0" expanded="false" />
-            <element signature="e#4621#5177#0" expanded="false" />
-            <element signature="e#7124#7989#0" expanded="false" />
-            <element signature="e#7991#8385#0" expanded="false" />
-            <element signature="e#8387#8700#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GPc/noise/CNoise.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="18130">
           <caret line="1295" column="43" lean-forward="false" selection-start-line="1295" selection-start-column="43" selection-end-line="1295" selection-end-column="43" />
-          <folding>
-            <element signature="e#49#1000#0" expanded="false" />
-            <element signature="e#1002#1750#0" expanded="false" />
-            <element signature="e#1769#3029#0" expanded="false" />
-            <element signature="e#3030#3866#0" expanded="false" />
-            <element signature="e#3868#4292#0" expanded="false" />
-            <element signature="e#4294#4642#0" expanded="false" />
-            <element signature="e#4644#5028#0" expanded="false" />
-            <element signature="e#5030#5388#0" expanded="false" />
-            <element signature="e#5390#5782#0" expanded="false" />
-            <element signature="e#5784#6095#0" expanded="false" />
-            <element signature="e#6096#6919#0" expanded="false" />
-            <element signature="e#6921#7574#0" expanded="false" />
-            <element signature="e#7575#8189#0" expanded="false" />
-            <element signature="e#8191#8703#0" expanded="false" />
-            <element signature="e#8712#9149#0" expanded="false" />
-            <element signature="e#9150#9536#0" expanded="false" />
-            <element signature="e#9537#10557#0" expanded="false" />
-            <element signature="e#10559#10590#0" expanded="false" />
-            <element signature="e#10591#10949#0" expanded="false" />
-            <element signature="e#10950#11056#0" expanded="false" />
-            <element signature="e#11057#11140#0" expanded="false" />
-            <element signature="e#11141#11364#0" expanded="false" />
-            <element signature="e#11365#11721#0" expanded="false" />
-            <element signature="e#11722#12098#0" expanded="false" />
-            <element signature="e#12099#12406#0" expanded="false" />
-            <element signature="e#12407#12899#0" expanded="false" />
-            <element signature="e#12900#13172#0" expanded="false" />
-            <element signature="e#13173#13648#0" expanded="false" />
-            <element signature="e#13650#14352#0" expanded="false" />
-            <element signature="e#13788#14350#0" expanded="false" />
-            <element signature="e#14354#14705#0" expanded="false" />
-            <element signature="e#14538#14703#0" expanded="false" />
-            <element signature="e#14707#15326#0" expanded="false" />
-            <element signature="e#14871#15324#0" expanded="false" />
-            <element signature="e#15327#15829#0" expanded="false" />
-            <element signature="e#15830#16455#0" expanded="false" />
-            <element signature="e#16022#16453#0" expanded="false" />
-            <element signature="e#16457#16861#0" expanded="false" />
-            <element signature="e#16862#17400#0" expanded="false" />
-            <element signature="e#17401#18243#0" expanded="false" />
-            <element signature="e#17648#18241#0" expanded="false" />
-            <element signature="e#18245#19107#0" expanded="false" />
-            <element signature="e#18491#19105#0" expanded="false" />
-            <element signature="e#19109#19142#0" expanded="false" />
-            <element signature="e#19143#19462#0" expanded="false" />
-            <element signature="e#19463#19553#0" expanded="false" />
-            <element signature="e#19554#19630#0" expanded="false" />
-            <element signature="e#19631#19774#0" expanded="false" />
-            <element signature="e#19775#20151#0" expanded="false" />
-            <element signature="e#20153#20421#0" expanded="false" />
-            <element signature="e#20422#20582#0" expanded="false" />
-            <element signature="e#20583#20949#0" expanded="false" />
-            <element signature="e#20950#21166#0" expanded="false" />
-            <element signature="e#21167#21525#0" expanded="false" />
-            <element signature="e#21527#22162#0" expanded="false" />
-            <element signature="e#22163#22484#0" expanded="false" />
-            <element signature="e#22486#23313#0" expanded="false" />
-            <element signature="e#23314#23686#0" expanded="false" />
-            <element signature="e#23688#24254#0" expanded="false" />
-            <element signature="e#24255#25027#0" expanded="false" />
-            <element signature="e#25029#25800#0" expanded="false" />
-            <element signature="e#25802#25831#0" expanded="false" />
-            <element signature="e#25832#26517#0" expanded="false" />
-            <element signature="e#26518#26606#0" expanded="false" />
-            <element signature="e#26607#26686#0" expanded="false" />
-            <element signature="e#26687#26828#0" expanded="false" />
-            <element signature="e#26829#27473#0" expanded="false" />
-            <element signature="e#27474#27884#0" expanded="false" />
-            <element signature="e#27885#28265#0" expanded="false" />
-            <element signature="e#28266#28728#0" expanded="false" />
-            <element signature="e#28729#29125#0" expanded="false" />
-            <element signature="e#29126#29523#0" expanded="false" />
-            <element signature="e#29525#31586#0" expanded="false" />
-            <element signature="e#31587#32970#0" expanded="false" />
-            <element signature="e#32971#34206#0" expanded="false" />
-            <element signature="e#34208#34806#0" expanded="false" />
-            <element signature="e#34807#35169#0" expanded="false" />
-            <element signature="e#35170#36187#0" expanded="false" />
-            <element signature="e#36189#37684#0" expanded="false" />
-            <element signature="e#37685#38127#0" expanded="false" />
-            <element signature="e#38129#39214#0" expanded="false" />
-            <element signature="e#39215#39250#0" expanded="false" />
-            <element signature="e#39251#39914#0" expanded="false" />
-            <element signature="e#39915#40056#0" expanded="false" />
-            <element signature="e#40057#40148#0" expanded="false" />
-            <element signature="e#40149#40428#0" expanded="false" />
-            <element signature="e#40429#40498#0" expanded="false" />
-            <element signature="e#40499#40938#0" expanded="false" />
-            <element signature="e#40939#41269#0" expanded="false" />
-            <element signature="e#41270#41697#0" expanded="false" />
-            <element signature="e#41698#42011#0" expanded="false" />
-            <element signature="e#42012#42431#0" expanded="false" />
-            <element signature="e#42433#45056#0" expanded="false" />
-            <element signature="e#45057#46572#0" expanded="false" />
-            <element signature="e#46573#47419#0" expanded="false" />
-            <element signature="e#47421#48363#0" expanded="false" />
-            <element signature="e#48364#48741#0" expanded="false" />
-            <element signature="e#48742#50489#0" expanded="false" />
-            <element signature="e#50491#52223#0" expanded="false" />
-            <element signature="e#52224#52676#0" expanded="false" />
-            <element signature="e#52678#53781#0" expanded="false" />
-            <element signature="e#53783#53870#0" expanded="false" />
-            <element signature="e#53872#54890#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/GPc/CGp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="69" column="10" lean-forward="false" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testGPML.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GPc/CGp.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="6048">
           <caret line="432" column="10" lean-forward="false" selection-start-line="432" selection-start-column="10" selection-end-line="432" selection-end-column="10" />
           <folding>
             <element signature="e#17#91#0" expanded="false" />
@@ -1576,10 +1015,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/GPc/CGp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="69" column="10" lean-forward="false" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GPc/CMatrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#814#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GPc/noise/CNoise.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="48" column="49" lean-forward="false" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#906#0" expanded="false" />
+            <element signature="e#1544#1648#0" expanded="false" />
+            <element signature="e#2118#2683#0" expanded="false" />
+            <element signature="e#4085#4175#0" expanded="false" />
+            <element signature="e#4178#4232#0" expanded="false" />
+            <element signature="e#4235#4289#0" expanded="false" />
+            <element signature="e#4292#4351#0" expanded="false" />
+            <element signature="e#4354#4422#0" expanded="false" />
+            <element signature="e#4503#4615#0" expanded="false" />
+            <element signature="e#4618#4694#0" expanded="false" />
+            <element signature="e#4697#4773#0" expanded="false" />
+            <element signature="e#4776#4907#0" expanded="false" />
+            <element signature="e#4910#4981#0" expanded="false" />
+            <element signature="e#4990#5053#0" expanded="false" />
+            <element signature="e#5056#5117#0" expanded="false" />
+            <element signature="e#5120#5177#0" expanded="false" />
+            <element signature="e#5180#5248#0" expanded="false" />
+            <element signature="e#5251#5322#0" expanded="false" />
+            <element signature="e#5325#5389#0" expanded="false" />
+            <element signature="e#5392#5550#0" expanded="false" />
+            <element signature="e#5553#5893#0" expanded="false" />
+            <element signature="e#6243#6412#0" expanded="false" />
+            <element signature="e#6418#6574#0" expanded="false" />
+            <element signature="e#6577#6745#0" expanded="false" />
+            <element signature="e#6751#7032#0" expanded="false" />
+            <element signature="e#7035#7328#0" expanded="false" />
+            <element signature="e#7421#7565#0" expanded="false" />
+            <element signature="e#7568#7691#0" expanded="false" />
+            <element signature="e#7694#7777#0" expanded="false" />
+            <element signature="e#7780#7851#0" expanded="false" />
+            <element signature="e#7857#7933#0" expanded="false" />
+            <element signature="e#8014#8085#0" expanded="false" />
+            <element signature="e#8089#8155#0" expanded="false" />
+            <element signature="e#8159#8228#0" expanded="false" />
+            <element signature="e#8232#8302#0" expanded="false" />
+            <element signature="e#8306#8379#0" expanded="false" />
+            <element signature="e#8397#8463#0" expanded="false" />
+            <element signature="e#8720#11684#1" expanded="false" />
+            <element signature="e#8769#8821#0" expanded="false" />
+            <element signature="e#8824#8927#0" expanded="false" />
+            <element signature="e#8951#9080#0" expanded="false" />
+            <element signature="e#9083#9214#0" expanded="false" />
+            <element signature="e#9217#9344#0" expanded="false" />
+            <element signature="e#9347#9476#0" expanded="false" />
+            <element signature="e#10658#10739#0" expanded="false" />
+            <element signature="e#10818#10911#0" expanded="false" />
+            <element signature="e#10914#11010#0" expanded="false" />
+            <element signature="e#11013#11118#0" expanded="false" />
+            <element signature="e#11121#11284#0" expanded="false" />
+            <element signature="e#11287#11385#0" expanded="false" />
+            <element signature="e#11744#13970#1" expanded="false" />
+            <element signature="e#11795#11848#0" expanded="false" />
+            <element signature="e#11851#11956#0" expanded="false" />
+            <element signature="e#12957#13038#0" expanded="false" />
+            <element signature="e#13117#13210#0" expanded="false" />
+            <element signature="e#13213#13309#0" expanded="false" />
+            <element signature="e#13312#13417#0" expanded="false" />
+            <element signature="e#13420#13583#0" expanded="false" />
+            <element signature="e#13586#13684#0" expanded="false" />
+            <element signature="e#14075#16672#1" expanded="false" />
+            <element signature="e#14123#14174#0" expanded="false" />
+            <element signature="e#14177#14280#0" expanded="false" />
+            <element signature="e#15367#15448#0" expanded="false" />
+            <element signature="e#15527#15620#0" expanded="false" />
+            <element signature="e#15623#15719#0" expanded="false" />
+            <element signature="e#15722#15827#0" expanded="false" />
+            <element signature="e#15830#15993#0" expanded="false" />
+            <element signature="e#15996#16065#0" expanded="false" />
+            <element signature="e#16068#16124#0" expanded="false" />
+            <element signature="e#16127#16225#0" expanded="false" />
+            <element signature="e#16228#16320#0" expanded="false" />
+            <element signature="e#16675#19402#1" expanded="false" />
+            <element signature="e#16726#16780#0" expanded="false" />
+            <element signature="e#16783#16901#0" expanded="false" />
+            <element signature="e#16904#17048#0" expanded="false" />
+            <element signature="e#17074#17139#0" expanded="false" />
+            <element signature="e#17142#17250#0" expanded="false" />
+            <element signature="e#18320#18401#0" expanded="false" />
+            <element signature="e#18480#18573#0" expanded="false" />
+            <element signature="e#18576#18672#0" expanded="false" />
+            <element signature="e#18675#18780#0" expanded="false" />
+            <element signature="e#18783#18946#0" expanded="false" />
+            <element signature="e#18949#19047#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GPc/CNdlInterfaces.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2772">
+          <caret line="198" column="7" lean-forward="false" selection-start-line="198" selection-start-column="7" selection-end-line="198" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testGPML.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/GPc/GMPLMultiDimGp.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="159" column="51" lean-forward="false" selection-start-line="159" selection-start-column="51" selection-end-line="159" selection-end-column="51" />
+        <state relative-caret-position="406">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="e#0#2#0" expanded="false" />
             <element signature="e#464#738#0" expanded="false" />
@@ -1590,6 +1157,29 @@
             <element signature="e#4430#4726#0" expanded="false" />
             <element signature="e#4732#5032#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinc_scatter_data.dat" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testNoise.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

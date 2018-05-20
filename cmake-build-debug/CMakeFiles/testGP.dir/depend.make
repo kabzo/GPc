@@ -10,7 +10,6 @@ CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/CKernTypes.hpp
 CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/CMatrix.h
 CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/CMltools.h
 CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/CNdlInterfaces.h
-CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/CNoise.h
 CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/COptimisable.h
 CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/CRbfKern.hpp
 CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/CRbfardKern.hpp
@@ -21,6 +20,10 @@ CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/ndlexceptions.h
 CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/ndlfortran.h
 CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/ndlstrutil.h
 CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/ndlutil.h
+CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/noise/CGaussianMultiDimNoise.h
+CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/noise/CGaussianNoise.h
+CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/noise/CNoise.h
+CMakeFiles/testGP.dir/test/testGp.cpp.o: ../include/GPc/noise/CNoiseTypes.h
 CMakeFiles/testGP.dir/test/testGp.cpp.o: ../test/testGp.cpp
 CMakeFiles/testGP.dir/test/testGp.cpp.o: /opt/MATLAB/R2018a/extern/include/mat.h
 CMakeFiles/testGP.dir/test/testGp.cpp.o: /opt/MATLAB/R2018a/extern/include/matrix.h

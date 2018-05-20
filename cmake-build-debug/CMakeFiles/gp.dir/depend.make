@@ -9,7 +9,6 @@ CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/CKern.h
 CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/CMatrix.h
 CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/CMltools.h
 CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/CNdlInterfaces.h
-CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/CNoise.h
 CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/COptimisable.h
 CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/CRbfKern.hpp
 CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/CRbfardKern.hpp
@@ -20,6 +19,10 @@ CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/ndlexceptions.h
 CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/ndlfortran.h
 CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/ndlstrutil.h
 CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/ndlutil.h
+CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/noise/CGaussianMultiDimNoise.h
+CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/noise/CGaussianNoise.h
+CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/noise/CNoise.h
+CMakeFiles/gp.dir/src/gp.cpp.o: ../include/GPc/noise/CNoiseTypes.h
 CMakeFiles/gp.dir/src/gp.cpp.o: ../src/gp.cpp
 CMakeFiles/gp.dir/src/gp.cpp.o: ../src/gp.h
 CMakeFiles/gp.dir/src/gp.cpp.o: /opt/MATLAB/R2018a/extern/include/mat.h

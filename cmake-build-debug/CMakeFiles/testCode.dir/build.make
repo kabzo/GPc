@@ -90,7 +90,7 @@ testCode_EXTERNAL_OBJECTS =
 
 testCode: CMakeFiles/testCode.dir/test/testCode.cpp.o
 testCode: CMakeFiles/testCode.dir/build.make
-testCode: libcmatrix.a
+testCode: libGPc.a
 testCode: CMakeFiles/testCode.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testCode"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testCode.dir/link.txt --verbose=$(VERBOSE)

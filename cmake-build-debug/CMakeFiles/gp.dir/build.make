@@ -90,7 +90,7 @@ gp_EXTERNAL_OBJECTS =
 
 gp: CMakeFiles/gp.dir/src/gp.cpp.o
 gp: CMakeFiles/gp.dir/build.make
-gp: libcmatrix.a
+gp: libGPc.a
 gp: CMakeFiles/gp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gp.dir/link.txt --verbose=$(VERBOSE)

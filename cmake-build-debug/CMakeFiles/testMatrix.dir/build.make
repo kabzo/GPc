@@ -90,7 +90,7 @@ testMatrix_EXTERNAL_OBJECTS =
 
 testMatrix: CMakeFiles/testMatrix.dir/test/testMatrix.cpp.o
 testMatrix: CMakeFiles/testMatrix.dir/build.make
-testMatrix: libcmatrix.a
+testMatrix: libGPc.a
 testMatrix: CMakeFiles/testMatrix.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testMatrix"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testMatrix.dir/link.txt --verbose=$(VERBOSE)

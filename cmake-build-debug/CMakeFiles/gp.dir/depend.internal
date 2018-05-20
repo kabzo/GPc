@@ -10,7 +10,6 @@ CMakeFiles/gp.dir/src/gp.cpp.o
  ../include/GPc/CMatrix.h
  ../include/GPc/CMltools.h
  ../include/GPc/CNdlInterfaces.h
- ../include/GPc/CNoise.h
  ../include/GPc/COptimisable.h
  ../include/GPc/CRbfKern.hpp
  ../include/GPc/CRbfardKern.hpp
@@ -21,6 +20,10 @@ CMakeFiles/gp.dir/src/gp.cpp.o
  ../include/GPc/ndlfortran.h
  ../include/GPc/ndlstrutil.h
  ../include/GPc/ndlutil.h
+ ../include/GPc/noise/CGaussianMultiDimNoise.h
+ ../include/GPc/noise/CGaussianNoise.h
+ ../include/GPc/noise/CNoise.h
+ ../include/GPc/noise/CNoiseTypes.h
  /home/juraj/git/master_thesis/gp/GPc/src/gp.cpp
  /home/juraj/git/master_thesis/gp/GPc/src/gp.h
  /opt/MATLAB/R2018a/extern/include/mat.h

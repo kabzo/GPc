@@ -16,19 +16,13 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../."
-  "/home/juraj/git/master_thesis/gp/ndlutil/src"
-  "/home/juraj/git/master_thesis/gp/matrix/src"
-  "/home/juraj/git/master_thesis/gp/branches/helper/src"
   "../include/GPc"
-  "/usr/local/include"
-  "/usr/local/include/eigen3"
   "/opt/MATLAB/R2018a/extern/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/cmatrix.dir/DependInfo.cmake"
+  "/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug/CMakeFiles/GPc.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -137,7 +137,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=CMatrix
+CMAKE_PROJECT_NAME:STATIC=GPc
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -194,6 +194,15 @@ CMatrix_BINARY_DIR:STATIC=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug
 //Value Computed by CMake
 CMatrix_SOURCE_DIR:STATIC=/home/juraj/git/master_thesis/gp/GPc
 
+//Value Computed by CMake
+GPc_BINARY_DIR:STATIC=/home/juraj/git/master_thesis/gp/GPc/cmake-build-debug
+
+//Dependencies for the target
+GPc_LIB_DEPENDS:STATIC=general;mat;general;mx;general;gfortran;general;lapack;general;blas;
+
+//Value Computed by CMake
+GPc_SOURCE_DIR:STATIC=/home/juraj/git/master_thesis/gp/GPc
+
 //Path to a program.
 ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
@@ -205,6 +214,9 @@ USE_HDF5:BOOL=OFF
 
 //Dependencies for the target
 cmatrix_LIB_DEPENDS:STATIC=general;mat;general;mx;general;gfortran;general;lapack;general;blas;
+
+//Dependencies for target
+gpc_LIB_DEPENDS:STATIC=
 
 
 ########################

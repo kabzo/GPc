@@ -6,7 +6,6 @@ CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/CDist.h
 CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/CKern.h
 CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/CMatrix.h
 CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/CNdlInterfaces.h
-CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/CNoise.h
 CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/COptimisable.h
 CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/CTransform.h
 CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/lapack.h
@@ -15,6 +14,10 @@ CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/ndlexceptions.h
 CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/ndlfortran.h
 CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/ndlstrutil.h
 CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/ndlutil.h
+CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/noise/CGaussianMultiDimNoise.h
+CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/noise/CGaussianNoise.h
+CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/noise/CNoise.h
+CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../include/GPc/noise/CNoiseTypes.h
 CMakeFiles/testNoise.dir/test/testNoise.cpp.o: ../test/testNoise.cpp
 CMakeFiles/testNoise.dir/test/testNoise.cpp.o: /opt/MATLAB/R2018a/extern/include/mat.h
 CMakeFiles/testNoise.dir/test/testNoise.cpp.o: /opt/MATLAB/R2018a/extern/include/matrix.h

@@ -1,4 +1,4 @@
-#include "CNoise.h"
+#include "noise/CNoiseTypes.h"
 
 int testType(const string noiseType);
 int testNoise(CNoise* noise, CNoise* noise2, const string fileName);

@@ -1,52 +1,28 @@
-PROJECT(CMatrix)
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 2.8.3)
+project(GPc)
 add_compile_options(-std=c++11)
 
-OPTION(USE_HDF5 "Build with HDF5 support.")
+find_package(catkin REQUIRED COMPONENTS)
 
-SET(CMAKE_CXX_FLAGS "-fPIC")
-SET(CMAKE_C_FLAGS "-fPIC")
+set(CMAKE_CXX_FLAGS "-fPIC")
+set(CMAKE_C_FLAGS "-fPIC")
 
-SET(MLPROJECTS_BASE_DIR /home/juraj/git/master_thesis/gp)
+catkin_package(INCLUDE_DIRS include/GPc)
 
-if (USE_HDF5)
-    ADD_DEFINITIONS(-D_HDF5)
-    FIND_PACKAGE(HDF5)
-endif (USE_HDF5)
-
-INCLUDE_DIRECTORIES(. ${HDF5_INCLUDE_DIR}
-        ${MLPROJECTS_BASE_DIR}/ndlutil/src
-        ${MLPROJECTS_BASE_DIR}/matrix/src
-        ${MLPROJECTS_BASE_DIR}/branches/helper/src
-        /usr/include
+include_directories(
         include/GPc
-        /usr/local/include        #for boost
-        /usr/local/include/eigen3 #for eigen3
         /opt/MATLAB/R2018a/extern/include
-        )
+)
 
-LINK_DIRECTORIES(/usr/lib /usr/local/lib ${HDF5_LIBRARY_DIRS} /opt/MATLAB/R2018a/bin/glnxa64 lib/ lib/libf2c)
+link_directories(
+        /opt/MATLAB/R2018a/bin/glnxa64
+        lib/
+)
 
-file(GLOB SRC_FILES C*.cpp)
-SET(CMatrix_sources
-        #    ${MLPROJECTS_BASE_DIR}/ndlutil/src/CNdlInterfaces.h
-        #    ${MLPROJECTS_BASE_DIR}/matrix/src/CMatrix.h                  ${MLPROJECTS_BASE_DIR}/matrix/src/CMatrix.cpp
-        #
-        #    ${MLPROJECTS_BASE_DIR}/ndlutil/src/ndlassert.h               ${MLPROJECTS_BASE_DIR}/ndlutil/src/ndlassert.cpp
-        #    ${MLPROJECTS_BASE_DIR}/ndlutil/src/ndlexceptions.h
-        #
-        #    ${MLPROJECTS_BASE_DIR}/ndlutil/src/lapack.h
-        #    #${MLPROJECTS_BASE_DIR}/ndlutil/src/f2c.h
-        #    ${MLPROJECTS_BASE_DIR}/ndlutil/src/ndlfortran.h              ${MLPROJECTS_BASE_DIR}/ndlutil/src/ndlfortran.c
-        #    ${MLPROJECTS_BASE_DIR}/ndlutil/src/ndlstrutil.h              ${MLPROJECTS_BASE_DIR}/ndlutil/src/ndlstrutil.cpp
-        #    ${MLPROJECTS_BASE_DIR}/ndlutil/src/ndlutil.h                 ${MLPROJECTS_BASE_DIR}/ndlutil/src/ndlutil.cpp
-        #    ${MLPROJECTS_BASE_DIR}/ndlutil/src/ndlstrutil.h              ${MLPROJECTS_BASE_DIR}/ndlutil/src/ndlstrutil.cpp
-        )
+add_definitions(-D_FORTRAN_MAIN_FIX)
+add_definitions(-D_NDLMATLAB)
 
-ADD_DEFINITIONS(-D_FORTRAN_MAIN_FIX)
-ADD_DEFINITIONS(-D_NDLMATLAB)
-
-add_library(cmatrix STATIC ${CMatrix_sources}
+add_library(GPc STATIC ${CMatrix_sources}
         src/GPc/CClctrl.cpp
         src/GPc/CGp.cpp
         src/GPc/CMatrix.cpp
@@ -65,28 +41,28 @@ add_library(cmatrix STATIC ${CMatrix_sources}
         lib/ndlfortran.o
         )
 
-TARGET_LINK_LIBRARIES(cmatrix mat mx gfortran lapack blas)
+target_link_libraries(GPc mat mx gfortran lapack blas)
 
 add_executable(testGP test/testGp.cpp)
-target_link_libraries(testGP cmatrix)
+target_link_libraries(testGP GPc)
 
 add_executable(gp src/gp.cpp)
-target_link_libraries(gp cmatrix)
+target_link_libraries(gp GPc)
 
 add_executable(testDist test/testDist.cpp)
-target_link_libraries(testDist cmatrix)
+target_link_libraries(testDist GPc)
 
 add_executable(testCode test/testCode.cpp)
-target_link_libraries(testCode cmatrix)
+target_link_libraries(testCode GPc)
 
 add_executable(testKern test/testKern.cpp)
-target_link_libraries(testKern cmatrix)
+target_link_libraries(testKern GPc)
 
 add_executable(testMatrix test/testMatrix.cpp)
-target_link_libraries(testMatrix cmatrix)
+target_link_libraries(testMatrix GPc)
 
 add_executable(testNoise test/testNoise.cpp)
-target_link_libraries(testNoise cmatrix)
+target_link_libraries(testNoise GPc)
 
 add_executable(testGPML test/testGPML.cpp)
-target_link_libraries(testGPML cmatrix)
+target_link_libraries(testGPML GPc)

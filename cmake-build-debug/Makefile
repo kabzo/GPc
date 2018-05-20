@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named GPc
+
+# Build rule for target.
+GPc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GPc
+.PHONY : GPc
+
+# fast build rule for target.
+GPc/fast:
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/build
+.PHONY : GPc/fast
+
+#=============================================================================
 # Target rules for targets named testGP
 
 # Build rule for target.
@@ -135,19 +148,6 @@ gp: cmake_check_build_system
 gp/fast:
 	$(MAKE) -f CMakeFiles/gp.dir/build.make CMakeFiles/gp.dir/build
 .PHONY : gp/fast
-
-#=============================================================================
-# Target rules for targets named cmatrix
-
-# Build rule for target.
-cmatrix: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cmatrix
-.PHONY : cmatrix
-
-# fast build rule for target.
-cmatrix/fast:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/build
-.PHONY : cmatrix/fast
 
 #=============================================================================
 # Target rules for targets named testKern
@@ -233,7 +233,7 @@ src/GPc/CClctrl.o: src/GPc/CClctrl.cpp.o
 
 # target to build an object file
 src/GPc/CClctrl.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CClctrl.cpp.o
 .PHONY : src/GPc/CClctrl.cpp.o
 
 src/GPc/CClctrl.i: src/GPc/CClctrl.cpp.i
@@ -242,7 +242,7 @@ src/GPc/CClctrl.i: src/GPc/CClctrl.cpp.i
 
 # target to preprocess a source file
 src/GPc/CClctrl.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CClctrl.cpp.i
 .PHONY : src/GPc/CClctrl.cpp.i
 
 src/GPc/CClctrl.s: src/GPc/CClctrl.cpp.s
@@ -251,7 +251,7 @@ src/GPc/CClctrl.s: src/GPc/CClctrl.cpp.s
 
 # target to generate assembly for a file
 src/GPc/CClctrl.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CClctrl.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CClctrl.cpp.s
 .PHONY : src/GPc/CClctrl.cpp.s
 
 src/GPc/CDist.o: src/GPc/CDist.cpp.o
@@ -260,7 +260,7 @@ src/GPc/CDist.o: src/GPc/CDist.cpp.o
 
 # target to build an object file
 src/GPc/CDist.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CDist.cpp.o
 .PHONY : src/GPc/CDist.cpp.o
 
 src/GPc/CDist.i: src/GPc/CDist.cpp.i
@@ -269,7 +269,7 @@ src/GPc/CDist.i: src/GPc/CDist.cpp.i
 
 # target to preprocess a source file
 src/GPc/CDist.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CDist.cpp.i
 .PHONY : src/GPc/CDist.cpp.i
 
 src/GPc/CDist.s: src/GPc/CDist.cpp.s
@@ -278,7 +278,7 @@ src/GPc/CDist.s: src/GPc/CDist.cpp.s
 
 # target to generate assembly for a file
 src/GPc/CDist.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CDist.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CDist.cpp.s
 .PHONY : src/GPc/CDist.cpp.s
 
 src/GPc/CGp.o: src/GPc/CGp.cpp.o
@@ -287,7 +287,7 @@ src/GPc/CGp.o: src/GPc/CGp.cpp.o
 
 # target to build an object file
 src/GPc/CGp.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CGp.cpp.o
 .PHONY : src/GPc/CGp.cpp.o
 
 src/GPc/CGp.i: src/GPc/CGp.cpp.i
@@ -296,7 +296,7 @@ src/GPc/CGp.i: src/GPc/CGp.cpp.i
 
 # target to preprocess a source file
 src/GPc/CGp.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CGp.cpp.i
 .PHONY : src/GPc/CGp.cpp.i
 
 src/GPc/CGp.s: src/GPc/CGp.cpp.s
@@ -305,7 +305,7 @@ src/GPc/CGp.s: src/GPc/CGp.cpp.s
 
 # target to generate assembly for a file
 src/GPc/CGp.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CGp.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CGp.cpp.s
 .PHONY : src/GPc/CGp.cpp.s
 
 src/GPc/CKern.o: src/GPc/CKern.cpp.o
@@ -314,7 +314,7 @@ src/GPc/CKern.o: src/GPc/CKern.cpp.o
 
 # target to build an object file
 src/GPc/CKern.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CKern.cpp.o
 .PHONY : src/GPc/CKern.cpp.o
 
 src/GPc/CKern.i: src/GPc/CKern.cpp.i
@@ -323,7 +323,7 @@ src/GPc/CKern.i: src/GPc/CKern.cpp.i
 
 # target to preprocess a source file
 src/GPc/CKern.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CKern.cpp.i
 .PHONY : src/GPc/CKern.cpp.i
 
 src/GPc/CKern.s: src/GPc/CKern.cpp.s
@@ -332,7 +332,7 @@ src/GPc/CKern.s: src/GPc/CKern.cpp.s
 
 # target to generate assembly for a file
 src/GPc/CKern.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CKern.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CKern.cpp.s
 .PHONY : src/GPc/CKern.cpp.s
 
 src/GPc/CMatrix.o: src/GPc/CMatrix.cpp.o
@@ -341,7 +341,7 @@ src/GPc/CMatrix.o: src/GPc/CMatrix.cpp.o
 
 # target to build an object file
 src/GPc/CMatrix.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CMatrix.cpp.o
 .PHONY : src/GPc/CMatrix.cpp.o
 
 src/GPc/CMatrix.i: src/GPc/CMatrix.cpp.i
@@ -350,7 +350,7 @@ src/GPc/CMatrix.i: src/GPc/CMatrix.cpp.i
 
 # target to preprocess a source file
 src/GPc/CMatrix.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CMatrix.cpp.i
 .PHONY : src/GPc/CMatrix.cpp.i
 
 src/GPc/CMatrix.s: src/GPc/CMatrix.cpp.s
@@ -359,7 +359,7 @@ src/GPc/CMatrix.s: src/GPc/CMatrix.cpp.s
 
 # target to generate assembly for a file
 src/GPc/CMatrix.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CMatrix.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CMatrix.cpp.s
 .PHONY : src/GPc/CMatrix.cpp.s
 
 src/GPc/COptimisable.o: src/GPc/COptimisable.cpp.o
@@ -368,7 +368,7 @@ src/GPc/COptimisable.o: src/GPc/COptimisable.cpp.o
 
 # target to build an object file
 src/GPc/COptimisable.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/COptimisable.cpp.o
 .PHONY : src/GPc/COptimisable.cpp.o
 
 src/GPc/COptimisable.i: src/GPc/COptimisable.cpp.i
@@ -377,7 +377,7 @@ src/GPc/COptimisable.i: src/GPc/COptimisable.cpp.i
 
 # target to preprocess a source file
 src/GPc/COptimisable.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/COptimisable.cpp.i
 .PHONY : src/GPc/COptimisable.cpp.i
 
 src/GPc/COptimisable.s: src/GPc/COptimisable.cpp.s
@@ -386,7 +386,7 @@ src/GPc/COptimisable.s: src/GPc/COptimisable.cpp.s
 
 # target to generate assembly for a file
 src/GPc/COptimisable.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/COptimisable.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/COptimisable.cpp.s
 .PHONY : src/GPc/COptimisable.cpp.s
 
 src/GPc/CRbfKern.o: src/GPc/CRbfKern.cpp.o
@@ -395,7 +395,7 @@ src/GPc/CRbfKern.o: src/GPc/CRbfKern.cpp.o
 
 # target to build an object file
 src/GPc/CRbfKern.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CRbfKern.cpp.o
 .PHONY : src/GPc/CRbfKern.cpp.o
 
 src/GPc/CRbfKern.i: src/GPc/CRbfKern.cpp.i
@@ -404,7 +404,7 @@ src/GPc/CRbfKern.i: src/GPc/CRbfKern.cpp.i
 
 # target to preprocess a source file
 src/GPc/CRbfKern.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CRbfKern.cpp.i
 .PHONY : src/GPc/CRbfKern.cpp.i
 
 src/GPc/CRbfKern.s: src/GPc/CRbfKern.cpp.s
@@ -413,7 +413,7 @@ src/GPc/CRbfKern.s: src/GPc/CRbfKern.cpp.s
 
 # target to generate assembly for a file
 src/GPc/CRbfKern.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CRbfKern.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CRbfKern.cpp.s
 .PHONY : src/GPc/CRbfKern.cpp.s
 
 src/GPc/CRbfardKern.o: src/GPc/CRbfardKern.cpp.o
@@ -422,7 +422,7 @@ src/GPc/CRbfardKern.o: src/GPc/CRbfardKern.cpp.o
 
 # target to build an object file
 src/GPc/CRbfardKern.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CRbfardKern.cpp.o
 .PHONY : src/GPc/CRbfardKern.cpp.o
 
 src/GPc/CRbfardKern.i: src/GPc/CRbfardKern.cpp.i
@@ -431,7 +431,7 @@ src/GPc/CRbfardKern.i: src/GPc/CRbfardKern.cpp.i
 
 # target to preprocess a source file
 src/GPc/CRbfardKern.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CRbfardKern.cpp.i
 .PHONY : src/GPc/CRbfardKern.cpp.i
 
 src/GPc/CRbfardKern.s: src/GPc/CRbfardKern.cpp.s
@@ -440,7 +440,7 @@ src/GPc/CRbfardKern.s: src/GPc/CRbfardKern.cpp.s
 
 # target to generate assembly for a file
 src/GPc/CRbfardKern.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CRbfardKern.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CRbfardKern.cpp.s
 .PHONY : src/GPc/CRbfardKern.cpp.s
 
 src/GPc/CTransform.o: src/GPc/CTransform.cpp.o
@@ -449,7 +449,7 @@ src/GPc/CTransform.o: src/GPc/CTransform.cpp.o
 
 # target to build an object file
 src/GPc/CTransform.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CTransform.cpp.o
 .PHONY : src/GPc/CTransform.cpp.o
 
 src/GPc/CTransform.i: src/GPc/CTransform.cpp.i
@@ -458,7 +458,7 @@ src/GPc/CTransform.i: src/GPc/CTransform.cpp.i
 
 # target to preprocess a source file
 src/GPc/CTransform.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CTransform.cpp.i
 .PHONY : src/GPc/CTransform.cpp.i
 
 src/GPc/CTransform.s: src/GPc/CTransform.cpp.s
@@ -467,7 +467,7 @@ src/GPc/CTransform.s: src/GPc/CTransform.cpp.s
 
 # target to generate assembly for a file
 src/GPc/CTransform.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/CTransform.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/CTransform.cpp.s
 .PHONY : src/GPc/CTransform.cpp.s
 
 src/GPc/ndlassert.o: src/GPc/ndlassert.cpp.o
@@ -476,7 +476,7 @@ src/GPc/ndlassert.o: src/GPc/ndlassert.cpp.o
 
 # target to build an object file
 src/GPc/ndlassert.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/ndlassert.cpp.o
 .PHONY : src/GPc/ndlassert.cpp.o
 
 src/GPc/ndlassert.i: src/GPc/ndlassert.cpp.i
@@ -485,7 +485,7 @@ src/GPc/ndlassert.i: src/GPc/ndlassert.cpp.i
 
 # target to preprocess a source file
 src/GPc/ndlassert.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/ndlassert.cpp.i
 .PHONY : src/GPc/ndlassert.cpp.i
 
 src/GPc/ndlassert.s: src/GPc/ndlassert.cpp.s
@@ -494,7 +494,7 @@ src/GPc/ndlassert.s: src/GPc/ndlassert.cpp.s
 
 # target to generate assembly for a file
 src/GPc/ndlassert.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/ndlassert.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/ndlassert.cpp.s
 .PHONY : src/GPc/ndlassert.cpp.s
 
 src/GPc/ndlstrutil.o: src/GPc/ndlstrutil.cpp.o
@@ -503,7 +503,7 @@ src/GPc/ndlstrutil.o: src/GPc/ndlstrutil.cpp.o
 
 # target to build an object file
 src/GPc/ndlstrutil.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/ndlstrutil.cpp.o
 .PHONY : src/GPc/ndlstrutil.cpp.o
 
 src/GPc/ndlstrutil.i: src/GPc/ndlstrutil.cpp.i
@@ -512,7 +512,7 @@ src/GPc/ndlstrutil.i: src/GPc/ndlstrutil.cpp.i
 
 # target to preprocess a source file
 src/GPc/ndlstrutil.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/ndlstrutil.cpp.i
 .PHONY : src/GPc/ndlstrutil.cpp.i
 
 src/GPc/ndlstrutil.s: src/GPc/ndlstrutil.cpp.s
@@ -521,7 +521,7 @@ src/GPc/ndlstrutil.s: src/GPc/ndlstrutil.cpp.s
 
 # target to generate assembly for a file
 src/GPc/ndlstrutil.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/ndlstrutil.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/ndlstrutil.cpp.s
 .PHONY : src/GPc/ndlstrutil.cpp.s
 
 src/GPc/ndlutil.o: src/GPc/ndlutil.cpp.o
@@ -530,7 +530,7 @@ src/GPc/ndlutil.o: src/GPc/ndlutil.cpp.o
 
 # target to build an object file
 src/GPc/ndlutil.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/ndlutil.cpp.o
 .PHONY : src/GPc/ndlutil.cpp.o
 
 src/GPc/ndlutil.i: src/GPc/ndlutil.cpp.i
@@ -539,7 +539,7 @@ src/GPc/ndlutil.i: src/GPc/ndlutil.cpp.i
 
 # target to preprocess a source file
 src/GPc/ndlutil.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/ndlutil.cpp.i
 .PHONY : src/GPc/ndlutil.cpp.i
 
 src/GPc/ndlutil.s: src/GPc/ndlutil.cpp.s
@@ -548,7 +548,7 @@ src/GPc/ndlutil.s: src/GPc/ndlutil.cpp.s
 
 # target to generate assembly for a file
 src/GPc/ndlutil.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/ndlutil.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/ndlutil.cpp.s
 .PHONY : src/GPc/ndlutil.cpp.s
 
 src/GPc/noise/CGaussianMultiDimNoise.o: src/GPc/noise/CGaussianMultiDimNoise.cpp.o
@@ -557,7 +557,7 @@ src/GPc/noise/CGaussianMultiDimNoise.o: src/GPc/noise/CGaussianMultiDimNoise.cpp
 
 # target to build an object file
 src/GPc/noise/CGaussianMultiDimNoise.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.o
 .PHONY : src/GPc/noise/CGaussianMultiDimNoise.cpp.o
 
 src/GPc/noise/CGaussianMultiDimNoise.i: src/GPc/noise/CGaussianMultiDimNoise.cpp.i
@@ -566,7 +566,7 @@ src/GPc/noise/CGaussianMultiDimNoise.i: src/GPc/noise/CGaussianMultiDimNoise.cpp
 
 # target to preprocess a source file
 src/GPc/noise/CGaussianMultiDimNoise.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.i
 .PHONY : src/GPc/noise/CGaussianMultiDimNoise.cpp.i
 
 src/GPc/noise/CGaussianMultiDimNoise.s: src/GPc/noise/CGaussianMultiDimNoise.cpp.s
@@ -575,7 +575,7 @@ src/GPc/noise/CGaussianMultiDimNoise.s: src/GPc/noise/CGaussianMultiDimNoise.cpp
 
 # target to generate assembly for a file
 src/GPc/noise/CGaussianMultiDimNoise.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/noise/CGaussianMultiDimNoise.cpp.s
 .PHONY : src/GPc/noise/CGaussianMultiDimNoise.cpp.s
 
 src/GPc/noise/CGaussianNoise.o: src/GPc/noise/CGaussianNoise.cpp.o
@@ -584,7 +584,7 @@ src/GPc/noise/CGaussianNoise.o: src/GPc/noise/CGaussianNoise.cpp.o
 
 # target to build an object file
 src/GPc/noise/CGaussianNoise.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/noise/CGaussianNoise.cpp.o
 .PHONY : src/GPc/noise/CGaussianNoise.cpp.o
 
 src/GPc/noise/CGaussianNoise.i: src/GPc/noise/CGaussianNoise.cpp.i
@@ -593,7 +593,7 @@ src/GPc/noise/CGaussianNoise.i: src/GPc/noise/CGaussianNoise.cpp.i
 
 # target to preprocess a source file
 src/GPc/noise/CGaussianNoise.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/noise/CGaussianNoise.cpp.i
 .PHONY : src/GPc/noise/CGaussianNoise.cpp.i
 
 src/GPc/noise/CGaussianNoise.s: src/GPc/noise/CGaussianNoise.cpp.s
@@ -602,7 +602,7 @@ src/GPc/noise/CGaussianNoise.s: src/GPc/noise/CGaussianNoise.cpp.s
 
 # target to generate assembly for a file
 src/GPc/noise/CGaussianNoise.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/noise/CGaussianNoise.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/noise/CGaussianNoise.cpp.s
 .PHONY : src/GPc/noise/CGaussianNoise.cpp.s
 
 src/GPc/noise/CNoise.o: src/GPc/noise/CNoise.cpp.o
@@ -611,7 +611,7 @@ src/GPc/noise/CNoise.o: src/GPc/noise/CNoise.cpp.o
 
 # target to build an object file
 src/GPc/noise/CNoise.cpp.o:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.o
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/noise/CNoise.cpp.o
 .PHONY : src/GPc/noise/CNoise.cpp.o
 
 src/GPc/noise/CNoise.i: src/GPc/noise/CNoise.cpp.i
@@ -620,7 +620,7 @@ src/GPc/noise/CNoise.i: src/GPc/noise/CNoise.cpp.i
 
 # target to preprocess a source file
 src/GPc/noise/CNoise.cpp.i:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.i
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/noise/CNoise.cpp.i
 .PHONY : src/GPc/noise/CNoise.cpp.i
 
 src/GPc/noise/CNoise.s: src/GPc/noise/CNoise.cpp.s
@@ -629,7 +629,7 @@ src/GPc/noise/CNoise.s: src/GPc/noise/CNoise.cpp.s
 
 # target to generate assembly for a file
 src/GPc/noise/CNoise.cpp.s:
-	$(MAKE) -f CMakeFiles/cmatrix.dir/build.make CMakeFiles/cmatrix.dir/src/GPc/noise/CNoise.cpp.s
+	$(MAKE) -f CMakeFiles/GPc.dir/build.make CMakeFiles/GPc.dir/src/GPc/noise/CNoise.cpp.s
 .PHONY : src/GPc/noise/CNoise.cpp.s
 
 src/gp.o: src/gp.cpp.o
@@ -855,9 +855,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... GPc"
 	@echo "... testGP"
 	@echo "... gp"
-	@echo "... cmatrix"
 	@echo "... testKern"
 	@echo "... testDist"
 	@echo "... testCode"
