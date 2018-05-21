@@ -1,13 +1,21 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(GPc)
+project(gpc)
 add_compile_options(-std=c++11)
 
+#set(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH}/home/juraj/.local/lib/easy_profiler-v2.0.0-linux_x64-libc_2.23/lib/cmake/easy_profiler")
+
 find_package(catkin REQUIRED COMPONENTS)
+#find_package(easy_profiler REQUIRED)
 
 set(CMAKE_CXX_FLAGS "-fPIC")
 set(CMAKE_C_FLAGS "-fPIC")
+message("--------")
+message(${CMAKE_PREFIX_PATH})
 
-catkin_package(INCLUDE_DIRS include/GPc)
+catkin_package(
+        INCLUDE_DIRS include/GPc
+        LIBRARIES GPc
+        DEPENDS)
 
 include_directories(
         include/GPc
@@ -22,7 +30,7 @@ link_directories(
 add_definitions(-D_FORTRAN_MAIN_FIX)
 add_definitions(-D_NDLMATLAB)
 
-add_library(GPc STATIC ${CMatrix_sources}
+add_library(GPc SHARED ${CMatrix_sources}
         src/GPc/CClctrl.cpp
         src/GPc/CGp.cpp
         src/GPc/CMatrix.cpp

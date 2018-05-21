@@ -74,7 +74,23 @@ class GMPLMultiDimGp : public CMatInterface {
 
     };
 
-    explicit GMPLMultiDimGp() : numOut(0) {}
+    explicit GMPLMultiDimGp() : numOut(0), set_(false) {}
+
+    GMPLMultiDimGp(const std::vector<GPMLKernConfig> &kern,
+                   const std::vector<GPMLNoiseConfig> &noise,
+                   const std::vector<GPMLConfig> &config) {
+        DIMENSIONMATCH(kern.size() == noise.size());
+        DIMENSIONMATCH(kern.size() == config.size());
+        numOut = static_cast<unsigned int>(kern.size());
+        init();
+
+        for (unsigned int idx = 0; idx < kern.size(); idx++) {
+            createNoise(idx, noise[idx]);
+            createKern(idx, kern[idx]);
+            createConfig(idx, config[idx]);
+        }
+        set_ = true;
+    }
 
     void fromMxArray(const mxArray *array) override {
         numOut = static_cast<unsigned int>(mxArrayExtractDoubleField(array, "nOut"));
@@ -90,14 +106,14 @@ class GMPLMultiDimGp : public CMatInterface {
             mxArray           *arrayStruct = mxArrayExtractMxArrayField(array, "hyp");
             for (unsigned int i            = 0; i < numOut; ++i) {
                 const auto compElement = mxGetCell(arrayStruct, i);
-                createKern(i, compElement);
+                createKern(i, GPMLKernConfig(compElement));
             }
         }
         {
             mxArray           *arrayStruct = mxArrayExtractMxArrayField(array, "post");
             for (unsigned int i            = 0; i < numOut; ++i) {
                 const auto compElement = mxGetCell(arrayStruct, i);
-                createConfig(i, compElement);
+                createConfig(i, GPMLConfig(compElement));
             }
         }
         {
@@ -109,23 +125,23 @@ class GMPLMultiDimGp : public CMatInterface {
         }
     }
 
-    void createKern(unsigned int idx, const mxArray *array) {
-        _kerns[idx].first  = GPMLKernConfig(array);
+    void createKern(unsigned int idx, const GPMLKernConfig &conf) {
+        _kerns[idx].first  = conf;
         _kerns[idx].second = CRbfardKern(_kerns[idx].first.xt);
         _kerns[idx].second.setParamName("inverseWidth", 1);
         _kerns[idx].second.setVariance(_kerns[idx].first.variance);
         _kerns[idx].second.setScales(_kerns[idx].first.scales);
     }
 
-    void createNoise(unsigned int idx, const GPMLNoiseConfig conf_noise) {
-        _noises[idx] = std::make_pair(conf_noise, CGaussianNoise());
+    void createNoise(unsigned int idx, const GPMLNoiseConfig conf) {
+        _noises[idx].first  = conf;
         _noises[idx].second = CGaussianNoise(&_noises[idx].first.yt);
         _noises[idx].second.setParam(0.0, 0);
-        _noises[idx].second.setParam(conf_noise.lik, 1);
+        _noises[idx].second.setParam(conf.lik, 1);
     }
 
-    void createConfig(unsigned int idx, const mxArray *array) {
-        _gp[idx].first = GPMLConfig(array);
+    void createConfig(unsigned int idx, const GPMLConfig &conf) {
+        _gp[idx].first = conf;
         _gp[idx].second =
             CGp(&_kerns[idx].second, &_noises[idx].second, &_kerns[idx].first.xt, &_gp[idx].first.Alpha,
                 &_gp[idx].first.L, &_gp[idx].first.sW);
@@ -143,25 +159,30 @@ class GMPLMultiDimGp : public CMatInterface {
 
     void out(CMatrix &mu, CMatrix &var, const CMatrix &xin) {
         const unsigned int nrows = xin.getRows();
+        CMatrix            mu_i(nrows, 1), var_i(nrows, 1);
 
-        CMatrix           mu_i(nrows, 1), var_i(nrows, 1);
-        for (unsigned int i      = 0; i < numOut; ++i) {
+        for (unsigned int  i     = 0; i < numOut; ++i) {
+            clock_t begin = std::clock();
             _gp[i].second.out(mu_i, var_i, xin, true);
+            clock_t end = std::clock();
+            double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
+            std::cout << elapsed_secs << std::endl;
             mu.setMatrix(0, i, mu_i);
             var.setMatrix(0, i, var_i);
         }
-        check(xin);
     }
 
     void check(const CMatrix &xin) {
         const unsigned int nrows = xin.getRows();
         CMatrix            mu_i(nrows, 1), var_i(nrows, 1);
         for (unsigned int  i     = 0; i < numOut; ++i) {
-            _gp[i].second.out(mu_i, var_i, xin,true);
+            _gp[i].second.out(mu_i, var_i, xin, true);
             std::cout << _gp_results[i].mu.equals(mu_i, 1e-3) << std::endl;
             std::cout << _gp_results[i].var.equals(var_i, 1e-3) << std::endl;
         }
     }
+
+    bool isSet() const { return set_; }
 
  private:
     unsigned int                                            numOut;
@@ -170,6 +191,9 @@ class GMPLMultiDimGp : public CMatInterface {
     std::vector<std::pair<GPMLConfig, CGp >>                _gp;
 
     std::vector<Result> _gp_results;
+
+    bool set_;
+
 };
 
 #endif //CMATRIX_CMULTIDIMGP_H

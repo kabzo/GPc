@@ -66,7 +66,7 @@ class CMatrix : public CMatInterface, public CStreamInterface {
         setVals(val);
     }
     // Constructor for initialising a CMatrix from a double* array.
-    CMatrix(unsigned int numRows, unsigned int numCols, double *inVals) : nrows(numRows), ncols(numCols) {
+    CMatrix(unsigned int numRows, unsigned int numCols,const double *inVals) : nrows(numRows), ncols(numCols) {
         _init();
         symmetric  = false;
         triangular = false;

@@ -281,6 +281,7 @@ void CGp::updateM() const {
         setMupToDate(true);
     }
 }
+
 void CGp::initVals() {
     setSpherical(true); // not implemented non-spherical stuff yet.
     maxTries = 10; // number of cholesky decompositions to be attempted (adding jitter each time)
